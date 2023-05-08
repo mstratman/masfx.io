@@ -1,0 +1,48 @@
+[% WRAPPER layout.html sidebar=sidebar %]
+  <article class="docs-article">
+    <header class="docs-header">
+      <div class="d-flex justify-content-between">
+        <span class="chapter_name">[% chapter_title %]</span>
+        [% IF last_updated %]<span class="last_updated">Last updated: [% last_updated %]</span>[% END %]
+      </div>
+      <h1 [% IF h1_id %]id="[% h1_id %]"[% END %] class="docs-heading">[% title %]</h1>
+      [% IF intro %]<section class="docs-intro">[% intro %]</section>[% END %]
+    </header>
+
+    [% content %]
+
+    <div class="container mt-5">
+      <div class="row gx-4">
+        <div class="col-12 col-md-6 page-nav">
+          [% FOREACH p IN pages_prev %]
+            <a class="[% IF p.comprehensive %]cc[% ELSIF p.quick %]cq[% END %]" href="[% p.href %]">
+              <div class="p-3 h-100 border d-flex justify-content-between align-items-center">
+                <i class="fas fa-arrow-left mx-2"></i>
+                <div>
+                  <small>Previous</small>
+                  <br>
+                  [% p.title %]
+                </div>
+              </div>
+            </a>
+          [% END %]
+        </div>
+        <div class="col-12 col-md-6 page-nav">
+          [% FOREACH p IN pages_next %]
+            <a class="[% IF p.comprehensive %]cc[% ELSIF p.quick %]cq[% END %]" href="[% p.href %]">
+              <div class="p-3 h-100 border d-flex justify-content-between align-items-center">
+                <div>
+                  <small>Next</small>
+                  <br>
+                  [% p.title %]
+                </div>
+                <i class="fas fa-arrow-right mx-2"></i>
+              </div>
+            </a>
+          [% END %]
+        </div>
+      </div>
+    </div>
+
+  </article>
+[% END %]

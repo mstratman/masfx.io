@@ -1,0 +1,37 @@
+<div id="docs-sidebar" class="docs-sidebar">
+  [% INCLUDE search.html %]
+  <input type="hidden" id="current_page_id" name="current_page_id" value="[% current_page_id %]">
+  <nav id="docs-nav" class="docs-nav navbar">
+    <ul class="section-items list-unstyled nav flex-column pb-3">
+      <li class="nav-item section-title">
+        <a class="nav-link" href="/">
+          <span class="theme-icon-holder me-2"><i class="fas fa-list"></i></span>
+          Back to Books
+        </a>
+      </li>
+      [% FOREACH c IN chapters %]
+        <li class="nav-item nav-collapse section-title [% IF ! loop.first %]mt-3[% END %] [% IF c.quick %]cq[% ELSIF c.comprehensive %]cc[% END %]">
+          <a class="nav-link nav-chapter [% IF c.is_current %]active[% END %]" href="[% c.href %]">
+            <span class="theme-icon-holder me-2"><i class="fas [% IF c.icon %][% c.icon %][% ELSE %]fa-book-open[% END %]"></i></span>
+            [% c.title %]
+          </a>
+        </li>
+        [% IF c.is_current %]
+          [% FOREACH p IN c.pages %]
+            <li class="nav-item [% IF p.is_current %]active[% END %]  [% IF p.quick %]cq[% ELSIF p.comprehensive %]cc[% END %]">
+              <a class="nav-link nav-page [% IF p.is_current %]active[% END %]" href="[% p.href %]">
+                [% p.title %]
+                [% IF p.id %]<span class="page_done d-none ms-2" id="[% p.id %]" title="DONE"><i class="fas fa-check"></i></span>[% END %]
+              </a>
+            </li>
+            [% FOREACH section IN p.sections %]
+              <li class="nav-item ps-4 [% IF p.quick %]cq[% ELSIF p.comprehensive %]cc[% END %]">
+                <a class="nav-link nav-section scrollto" href="[% section.href %]">[% section.title %]</a>
+              </li>
+            [% END %]
+          [% END %]
+        [% END %]
+      [% END %]
+    </ul>
+  </nav><!--//docs-nav-->
+</div><!--//docs-sidebar-->

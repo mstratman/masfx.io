@@ -1,0 +1,30 @@
+[%- SWITCH type -%]
+  [%- CASE "warning" -%]
+    [%- icon = "fa-bullhorn" -%]
+    [%- class = "callout-block-warning" -%]
+    [%- default_heading = "Warning" -%]
+  [%- CASE "tip" -%]
+    [%- icon = "fa-thumbs-up" -%]
+    [%- class = "callout-block-success" -%]
+    [%- default_heading = "Tip" -%]
+  [%- CASE "danger" -%]
+    [%- icon = "fa-exclamation-triangle" -%]
+    [%- class = "callout-block-danger" -%]
+    [%- default_heading = "Danger" -%]
+  [%- CASE -%]
+    [%- icon = "fa-info-circle" -%]
+    [%- class = "callout-block-info" -%]
+    [%- default_heading = "Note" -%]
+[%- END -%]
+
+<div class="callout-block [% class %]">
+  <div class="content">
+    <h4 class="callout-title">
+	    <span class="callout-icon-holder me-1">
+		    <i class="fas [% icon %]"></i>
+      </span>
+      [% IF heading %][% heading %][% ELSE %][% default_heading %][% END %]
+    </h4>
+    [% content %]
+  </div>
+</div>

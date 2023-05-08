@@ -1,0 +1,100 @@
+{
+   "title" : "Soldering Practice Kit",
+   "directory" : "practice",
+   "meta_desc" : "Learn how to solder in order to build your own guitar pedals with this Pedal Building Course for the Soldering Practice Kit.",
+   "chapters" : [
+      {
+         "icon" : "fa-map-signs",
+         "title" : "Getting Started",
+         "directory" : "",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Soldering Practice Kit"
+            },
+            {
+               "file" : "site_howto",
+               "title" : "How To Use This Site"
+            },
+            {
+               "file" : "why",
+               "title" : "DONT'T SKIP THIS STEP"
+            },
+            {
+               "file" : "who",
+               "title" : "Who Is This For?",
+               "comprehensive" : 1
+            }
+         ]
+      },
+      {
+         "icon" : "fa-toolbox",
+         "title" : "Tools and Materials",
+         "directory" : "tools_and_materials",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Kit Contents"
+            },
+            {
+               "file" : "required",
+               "title" : "Required Tools"
+            },
+            {
+               "file" : "optional",
+               "title" : "Optional Tools"
+            },
+            {
+               "file" : "my_philosophy",
+               "title" : "Get Geared Up For About $15",
+               "comprehensive": 1
+            },
+            {
+               "file" : "soldering_irons",
+               "title" : "Soldering Irons: Good vs. Cheap",
+               "comprehensive": 1
+            },
+            {
+               "file" : "soldering_tip",
+               "title" : "Choosing a Tip For Your Iron",
+               "comprehensive": 1
+            },
+            {
+               "file" : "solder",
+               "title" : "Choosing Solder",
+               "comprehensive": 1
+            }
+         ]
+      },
+      {
+         "icon" : "fa-hand-point-right",
+         "title" : "Preparing to Solder",
+         "directory" : "preparing_to_solder",
+         "pages" : []
+      },
+      {
+         "icon" : "fa-hand-point-right",
+         "title" : "How to Solder",
+         "directory" : "how_to_solder",
+         "pages" : []
+      },
+      {
+         "icon" : "fa-hand-point-right",
+         "title" : "Flashlight Project",
+         "directory" : "flashlight",
+         "pages" : []
+      },
+      {
+         "icon" : "fa-exclamation-circle",
+         "title" : "When Things Go Wrong",
+         "directory" : "troubleshooting",
+         "pages" : []
+      },
+      {
+         "icon" : "fa-exclamation-circle",
+         "title" : "How Does It Work?",
+         "directory" : "flashlight_circuit",
+         "pages" : []
+      }
+   ]
+}

@@ -1,0 +1,63 @@
+{
+   "meta_desc" : "Learn how to build the Distortion 250 pedal in this Pedal Building Course for the Beginner Pedal Kit.",
+   "title" : "Beginner Pedal Kit (Distortion 250)",
+   "directory" : "distortion250",
+   "chapters" : [
+      {
+         "icon" : "fa-map-signs",
+         "title" : "Getting Started",
+         "directory" : "getting_started",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Introduction"
+            },
+            {
+               "file" : "tools_and_materials",
+               "title" : "Tools and Materials"
+            },
+            {
+               "file" : "component_values",
+               "title" : "Components Values, Units, and Prefixes"
+            },
+            {
+               "file" : "prepare",
+               "title" : "Prepare"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-hammer",
+         "title" : "Building",
+         "directory" : "building",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Build the Main PCB"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-hand-point-right",
+         "title" : "Your Next Pedal",
+         "directory" : "your_next_pedal",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Your Next Pedal"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-exclamation-circle",
+         "title" : "Troubleshooting",
+         "directory" : "troubleshooting",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "When Things Go Wrong"
+            }
+         ]
+      }
+   ],
+}
