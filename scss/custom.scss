@@ -144,6 +144,9 @@ figure,li {
   .float-md-img, .float-md {
     float: right;
   }
+  .float-md-img-left, .float-md-left {
+    float: left;
+  }
 }
 
 @media (min-width: 992px) {
@@ -152,6 +155,9 @@ figure,li {
   }
   .float-lg-img, .float-lg {
     float: right;
+  }
+  .float-lg-img-left, .float-lg-left {
+    float: left;
   }
 }
 
@@ -171,5 +177,16 @@ figure,li {
 .table tbody th {
   border-right-color: $theme-text-color-primary;
   border-right-width: 1px;
+}
+
+.solder-joint-table img {
+  max-height: 80px;
+  max-width: 77px;
+}
+.solder-joint-table img.double {
+  max-height: 140px;
+}
+.solder-joint-table tbody>tr>:nth-child(2) {
+  padding-right: 0.5rem;
 }
 

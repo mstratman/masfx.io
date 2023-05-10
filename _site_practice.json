@@ -89,7 +89,28 @@
          "icon" : "fa-eye-dropper",
          "title" : "How to Solder",
          "directory" : "how_to_solder",
-         "pages" : []
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Let's Practice!"
+            },
+            {
+               "file" : "quick_overview",
+               "title" : "Quick Overview: Soldering a Resistor"
+            },
+            {
+               "file" : "step_by_step",
+               "title" : "Step by Step: How to Solder"
+            },
+            {
+               "file" : "bad_joints",
+               "title" : "Bad Solder Joints"
+            },
+            {
+               "file" : "common_mistakes",
+               "title" : "Common Mistakes to Avoid"
+            }
+         ]
       },
       {
          "icon" : "fa-lightbulb",

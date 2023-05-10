@@ -1,0 +1,105 @@
+<div class="table-responsive-md">
+  <table class="solder-joint-table table table-sm table-hover table-small-text">
+    <thead>
+      <tr>
+        <th scope="col">
+          &nbsp;
+        </th>
+        <th scope="col">
+          Problem
+        </th>
+        <th scope="col">
+          Solution
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img src="/img/practice/solder-joint-good.png" alt="Good solder joint" />
+        </td>
+        <td>
+          None. This looks great!
+        </td>
+        <td>
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="/img/practice/solder-joint-bad-bond1.png" class="double" alt="Bad solder joint: Did not bond to the pad" />
+        </td>
+        <td>
+          Solder bonded to the lead, but not the pad
+        </td>
+        <td>
+          Reflow the joint by applying heat until you see the solder flow both up the lead and across the pad.
+          Make sure you <strong>heat the pad <em>and</em> the lead</strong>.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="/img/practice/solder-joint-bad-bond2.png" alt="Bad solder joint: Did not bond to the lead" />
+        </td>
+        <td>
+          Solder bonded to the pad, but not the lead. Notice solder doesn't curve toward the lead, but instead curves outward. There may or may not be a gap.
+        </td>
+        <td>
+          Reflow the joint by applying heat until you see the solder flow both up the lead and across the pad.
+          Make sure you <strong>heat the pad <em>and</em> the lead</strong>.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="/img/practice/solder-joint-not-enough-solder.png" alt="Bad solder joint: Not enough solder" />
+        </td>
+        <td>
+          Not enough solder
+        </td>
+        <td>
+          Reheat the joint and push more solder into it
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="/img/practice/solder-joint-too-much-solder.png" alt="Bad solder joint: Too much solder" />
+        </td>
+        <td>
+          Too much solder
+        </td>
+        <td>
+          This isn't necessarily a problem, but sometimes it masks the issue shown above where the solder bonded to the lead but not the pad.
+          <br>
+          <br>
+To be safe, clean your soldering iron tip really well and reheat the joint. This will do two things: 1. ensure you flow the solder over the PCB pad, and 2. pull some of the solder off the joint onto your tip
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="/img/practice/solder-joint-bridge.png" alt="Bad solder joint: Solder bridge" />
+        </td>
+        <td>
+          Solder bridge: solder has connected two pads, sometimes by bridging the pads themselves, or sometimes by bridging the two adjacent leads
+        </td>
+        <td>
+          Clean your iron tip really well and reheat the solder between the two pads. Let solder flow onto your iron. If it doesn't disconnect on the first try, clean the tip and try again. It may take a few tries, each time pulling a bit more solder off the joint.
+          <br>
+          <br>
+If you have any flux paste, it will help (optional).
+          <br>
+          <br>
+Alternatively you can use desoldering tools like a pump or a braid, but these are almost never necessary.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div>
+[% WRAPPER "callout.html" type="danger" heading="IMPORTANT" %]
+<strong>Learn to recognize</strong> good and bad solder joints, and <strong>learn to feel the resistance</strong> when pushing solder into a joint that isn't hot enough.
+
+Try pushing solder into a joint immediately as you apply heat, and feel for when it starts to flow.
+[% END %]
+</div>
+
