@@ -14,6 +14,12 @@ h3, .docs-article h3 {
   color: $theme-text-color-secondary;
 }
 
+.docs-article ul.tight li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
 
 @media (min-width: 992px) {
   .columns {
@@ -33,7 +39,7 @@ h3, .docs-article h3 {
     */
   }
 }
-figure {
+figure,li {
   break-inside: avoid;
 }
 
@@ -42,7 +48,7 @@ figure {
   background-color: #5d6778;
   color: #fff;
   */
-  background-color: #fff;
+  & > div { background-color: #fff; }
   & > div {
     cursor: pointer;
     height: 100%;
@@ -85,3 +91,85 @@ figure {
   font-size: 0.9rem;
   color: $theme-color-primary;
 }
+
+.BOM-grid {
+  .bom-card {
+    padding: 1rem;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    text-align: center;
+  }
+  img {
+    align-self: center !important;
+    max-height: 100px;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  .description {
+  }
+  .bom-detail {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+}
+
+.danger {
+  color: $theme-danger-color;
+}
+.info {
+  color: $theme-info-color;
+}
+
+
+.blockquote {
+  font-family: 'EB Garamond', serif;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1em;
+	color: $theme-text-color-secondary;
+  border-left: 2px solid $theme-color-primary;
+  padding: 1rem;
+	max-width: 350px;
+  margin: 10px 10px 10px 20px;
+	&:before { content: ''; }
+	&:after { content: ''; }
+}
+
+@media (min-width: 768px) {
+  .float-md-img, .float-md {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .blockquote {
+    float: right;
+  }
+  .float-lg-img, .float-lg {
+    float: right;
+  }
+}
+
+.author {
+  font-size: 0.86rem;
+  text-color: $theme-text-color-secondary;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid $theme-border-color;
+}
+
+.table-small-text {
+  font-size: 12px;
+}
+.table thead th {
+  border-bottom-color: $theme-text-color-primary;
+}
+.table tbody th {
+  border-right-color: $theme-text-color-primary;
+  border-right-width: 1px;
+}
+

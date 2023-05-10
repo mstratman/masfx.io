@@ -35,8 +35,15 @@ $site->{chapters} = [ map {
     $c->{href} = $site->{href} . $cdir;
     $c->{pages} = [ map {
         my $p = $_;
+        my $md_path = $page_dir . '/' . $site->{directory} . '/' . $cdir . $p->{file} . '.md';
+        my $html_path = $page_dir . '/' . $site->{directory} . '/' . $cdir . $p->{file} . '.html';
+        if (-e $md_path) {
+            $p->{md_path} = $md_path;
+        } else {
+            $p->{html_path} = $html_path;
+        }
+
         $p->{href} = $c->{href} . $p->{file} . '.html';
-        $p->{md_path} = $page_dir . '/' . $site->{directory} . '/' . $cdir . $p->{file} . '.md';
         $p->{dist_path} = 'dist/' . $site->{directory} . '/' . $cdir . $p->{file} . '.html';
         $p;
     } @{ $c->{pages} } ];
@@ -105,9 +112,21 @@ sub generate_sidebar {
     return $rv;
 }
 
+# returns either scalar body, or array of lines.
+sub get_article {
+    my $page = shift;
+    my @lines;
+    if ($page->{md_path}) {
+        return read_file($page->{md_path});
+    } else {
+        return read_file($page->{html_path});
+    }
+}
+
 sub get_sections {
     my ($page, $chapter) = @_;
-    my @lines = read_file($page->{md_path});
+
+    my @lines = get_article($page);
 
     my @rv = ();
     for my $l (@lines) {
@@ -152,7 +171,6 @@ sub build_all {
         for my $page (@{ $chapter->{pages} }) {
             ##(my $i = 0; $i < scalar(@{ $chapter->{pages} }); $i++) {
                 #my $page = $chapter->{pages}->[$i];
-            my $text = read_file($page->{md_path});
 
             my @prev = ();
             my @next = ();
@@ -179,7 +197,7 @@ sub build_all {
                             my %pg = %{ $nav_pages[$j] };
                             if (! $pg{$w->[0]}) {
                                 $pg{$w->[1]} = 1;
-                                push @prev, \%pg;
+                                push @next, \%pg;
                                 last;
                             }
                         }
@@ -188,10 +206,12 @@ sub build_all {
             }
 
             $i++;
+
+            my $fn = $page->{md_path} ? $page->{md_path} : $page->{html_path};
             my %vars = (
                 %$page,
                 h1_id => _Header2Label($page->{title}),
-                last_updated => time2str("%Y-%m-%d", stat($page->{md_path})->mtime),
+                last_updated => time2str("%Y-%m-%d", stat($fn)->mtime),
                 sidebar => generate_sidebar($page, $chapter),
                 site_title => $site->{title},
                 chapter_title => $chapter->{title},
@@ -200,8 +220,15 @@ sub build_all {
                 pages_next => \@next,
             );
 
-            my $md = Text::MultiMarkdown->new();
-            my $html = qq([% WRAPPER article.html %]) . $md->markdown($text) . '[% END %]';
+            my $article = get_article($page);
+            my $contents = '';
+            if ($page->{md_path}) {
+                my $md = Text::MultiMarkdown->new();
+                $contents = $md->markdown($article);
+            } else {
+                $contents = $article;
+            }
+            my $html = qq([% WRAPPER article.html %]) . $contents . '[% END %]';
 
             $tmpl->process(\$html, \%vars, $page->{dist_path}) or die $tmpl->error;
         }

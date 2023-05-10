@@ -3,3 +3,4 @@ config.codekit3
 dist/
 attic/
 tmp/
+*.swp

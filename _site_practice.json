@@ -67,19 +67,32 @@
          ]
       },
       {
-         "icon" : "fa-hand-point-right",
+         "icon" : "fa-list-check",
          "title" : "Preparing to Solder",
          "directory" : "preparing_to_solder",
-         "pages" : []
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Protect Yourself (and your table)"
+            },
+            {
+               "file" : "temperature",
+               "title" : "Soldering Temperature: 350°C"
+            },
+            {
+               "file" : "tinning",
+               "title" : "Tinning: The Key to Easy Soldering"
+            }
+         ]
       },
       {
-         "icon" : "fa-hand-point-right",
+         "icon" : "fa-eye-dropper",
          "title" : "How to Solder",
          "directory" : "how_to_solder",
          "pages" : []
       },
       {
-         "icon" : "fa-hand-point-right",
+         "icon" : "fa-lightbulb",
          "title" : "Flashlight Project",
          "directory" : "flashlight",
          "pages" : []
@@ -91,7 +104,7 @@
          "pages" : []
       },
       {
-         "icon" : "fa-exclamation-circle",
+         "icon" : "fa-gears",
          "title" : "How Does It Work?",
          "directory" : "flashlight_circuit",
          "pages" : []
