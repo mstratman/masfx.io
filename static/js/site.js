@@ -184,6 +184,24 @@ function checkDonePages() {
       }
     });
 
+    var str = document.getElementById('sidebar_structure').textContent;
+    var chapters = JSON.parse(str);
+    chapters.forEach((ch) => {
+      var ch_is_done = true;
+      ch.pages.forEach((p) => {
+        if (p.id) {
+          var done = localStorage.getItem(p.id);
+          if (! (done && done == "done")) {
+            ch_is_done = false;
+          }
+        }
+      });
+      if (ch_is_done) {
+        var cb = document.getElementById(ch.id);
+        cb.classList.remove('d-none');
+      }
+    });
+
   } else {
     console.log("NO LOCAL STORAGE");
     return undefined;

@@ -1,6 +1,13 @@
 <div id="docs-sidebar" class="docs-sidebar">
-  [% INCLUDE search.html %]
+  [% IF 0 %]
+    <div class="top-search-box d-lg-none p-3">
+      [% INCLUDE search.html %]
+    </div>
+  [% END %]
+
   <input type="hidden" id="current_page_id" name="current_page_id" value="[% current_page_id %]">
+
+  <script id="sidebar_structure" type="text/json">[% chapters_json %]</script>
   <nav id="docs-nav" class="docs-nav navbar">
     <ul class="section-items list-unstyled nav flex-column pb-3">
       <li class="nav-item section-title">
@@ -13,7 +20,8 @@
         <li class="nav-item nav-collapse section-title [% IF ! loop.first %]mt-3[% END %] [% IF c.quick %]cq[% ELSIF c.comprehensive %]cc[% END %]">
           <a class="nav-link nav-chapter [% IF c.is_current %]active[% END %]" href="[% c.href %]">
             <span class="theme-icon-holder me-2"><i class="fas [% IF c.icon %][% c.icon %][% ELSE %]fa-book-open[% END %]"></i></span>
-            [% c.title %]
+            [% IF c.menu_title %][% c.menu_title %][% ELSE %][% c.title %][% END %]
+            [% IF c.id %]<span class="page_done d-none ms-2" id="[% c.id %]" title="DONE"><i class="fas fa-check"></i></span>[% END %]
           </a>
         </li>
         [% IF c.is_current %]

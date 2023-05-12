@@ -38,13 +38,11 @@
                     <div class="site-logo"><a class="navbar-brand" href="https://mas-effects.com"><img class="logo-icon me-2" src="/img/mas-effects.png" alt="MAS Effects logo"></a></div>    
                 </div><!--//docs-logo-wrapper-->
                 <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                  [% IF 0 %]
                     <div class="top-search-box d-none d-lg-flex">
-                      <span class="todo">todo</span>
-                        <form class="search-form">
-                            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
-                            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-                        </form>
+                      [% INCLUDE search.html %]
                     </div>
+                    [% END %]
     
                     <ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
                         <li class="list-inline-item"><a title="Support" href="https://www.reddit.com/r/maseffects"><i class="fas fa-question-circle fa-fw"></i></a></li>

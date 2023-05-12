@@ -81,16 +81,17 @@ while ( my @events = $mon->wait_for_events ) {
 sub generate_sidebar {
     my ($cur_page, $cur_chapter) = @_;
     my $menu = [];
-    my $cur_id = 'sidebar_pageid_' . $cur_chapter->{directory} . '_' . $cur_page->{file};
+    my $cur_id = 'sidebar_pageid_' . $site->{directory} . $cur_chapter->{directory} . '_' . $cur_page->{file};
 
     for my $ch (@{ $site->{chapters} }) {
         my %c = %$ch;
         my $is_current_ch = $c{directory} eq $cur_chapter->{directory} ? 1 : 0;
+        $c{id} = 'sidebar_chid_' . $site->{directory} . $c{directory};
 
         my @pages = ();
         for my $pg (@{ $c{pages} }) {
             my %p = %$pg;
-            $p{id} = 'sidebar_pageid_' . $c{directory} . '_' . $p{file};
+            $p{id} = 'sidebar_pageid_' . $site->{directory} . $c{directory} . '_' . $p{file};
             my $is_current_p = $p{id} eq $cur_id ? 1 : 0;
             my $sections = [];
             if ($is_current_p) {
@@ -108,7 +109,11 @@ sub generate_sidebar {
     }
 
     my $rv = '';
-    $tmpl->process("sidebar.html", { current_page_id => $cur_id, chapters => $menu }, \$rv) or die $tmpl->error;
+    $tmpl->process("sidebar.html", {
+            current_page_id => $cur_id,
+            chapters => $menu,
+            chapters_json => $json->encode($menu),
+        }, \$rv) or die $tmpl->error;
     return $rv;
 }
 

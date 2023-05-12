@@ -5,8 +5,8 @@
         <span class="chapter_name">[% chapter_title %]</span>
         [% IF last_updated %]<span class="last_updated">Last updated: [% last_updated %]</span>[% END %]
       </div>
-      <h1 [% IF h1_id %]id="[% h1_id %]"[% END %] class="docs-heading">[% title %]</h1>
-      [% IF intro %]<section class="docs-intro">[% intro %]</section>[% END %]
+      <h1 [% IF h1_id %]id="[% h1_id %]"[% END %] class="docs-heading [% IF subtitle %] mb-0[% END %]">[% title %]</h1>
+      [% IF subtitle %]<h2 class="docs-subheading mt-0">[% subtitle %]</h2>[% END %]
     </header>
 
     [% content %]

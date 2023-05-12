@@ -380,6 +380,16 @@
 			color: darken($theme-danger-color, 15%);
 		}
 	}
+	&.callout-block-secondary {
+		border-color: #ced1d7;
+		background: #dfe1e4;
+		.callout-title {
+			color: #383e48;
+		}
+		a {
+			color: darken($theme-danger-color, 15%);
+		}
+	}
 }
 
 .cta-section {

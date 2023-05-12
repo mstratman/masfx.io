@@ -12,5 +12,5 @@ Choose a **conical pencil-shaped tip or a chisel tip**. These will work well for
 
 The tip needs to be large enough to simultaneously heat both the part being soldered, and the pad on the circuit board. Though it shouldn't be so large you have trouble targeting a single pad on the practice PCB.
 
-Use whatever came with your iron. If you eventually (e.g. after many hours of use) find it will no longer tin properly - [more on that later](#TODO) <span class="todo">TODO Fix link</span> - then replace it with a name-brand high quality tip. I prefer a Hakko T18-D16 chisel type, or sometimes the T18-B (R0.5) conical type.
+Use whatever came with your iron. If you eventually (e.g. after many hours of use) find it will no longer tin properly - [more on that later](/practice/troubleshooting/tip_wont_tin.html) - then replace it with a name-brand high quality tip. I prefer a Hakko T18-D16 chisel type, or sometimes the T18-B (R0.5) conical type.
 

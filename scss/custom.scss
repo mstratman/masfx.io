@@ -2,6 +2,9 @@ html { font-size: 14px; }
 
 .todo { font-weight: bold; color: red; }
 
+h2.docs-subheading {
+  color: $theme-text-color-light;
+}
 h2, .docs-article h2 {
   margin-top: 2rem;
 }
@@ -89,7 +92,7 @@ figure,li {
 
 .page_done {
   font-size: 0.9rem;
-  color: $theme-color-primary;
+  color: $theme-info-color;
 }
 
 .BOM-grid {

@@ -11397,6 +11397,16 @@ a.text-link:hover {
 .callout-block.callout-block-danger a {
   color: #b73c37;
 }
+.callout-block.callout-block-secondary {
+  border-color: #ced1d7;
+  background: #dfe1e4;
+}
+.callout-block.callout-block-secondary .callout-title {
+  color: #383e48;
+}
+.callout-block.callout-block-secondary a {
+  color: #b73c37;
+}
 
 .cta-section .container {
   position: relative;
@@ -11435,6 +11445,10 @@ html {
 .todo {
   font-weight: bold;
   color: red;
+}
+
+h2.docs-subheading, .docs-subheading.h2 {
+  color: #828d9f;
 }
 
 h2, .h2, .docs-article h2 {
@@ -11523,7 +11537,7 @@ figure, li {
 
 .page_done {
   font-size: 0.9rem;
-  color: #28b76b;
+  color: #5b99ea;
 }
 
 .BOM-grid .bom-card {
