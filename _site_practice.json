@@ -165,7 +165,13 @@
             },
             {
                "file" : "finish",
-               "title" : "Finishing Up"
+               "title" : "Finishing Up",
+               "comprehensive" : 1
+            },
+            {
+               "file" : "next",
+               "title" : "Next Steps",
+               "quick" : 1
             }
          ]
       },
@@ -173,6 +179,7 @@
          "icon" : "fa-exclamation-circle",
          "title" : "When Things Go Wrong",
          "directory" : "troubleshooting",
+         "comprehensive" : 1,
          "pages" : [
             {
                "file" : "index",
@@ -204,6 +211,7 @@
          "icon" : "fa-gears",
          "title" : "How Does It Work?",
          "directory" : "how_does_it_work",
+         "comprehensive" : 1,
          "pages" : [
             {
                "file" : "index",
