@@ -1,0 +1,255 @@
+{
+   "title" : "How To Solder: for DIY Guitar Pedals",
+   "directory" : "how_to_solder",
+   "meta_desc" : "Learn how to solder in order to build your own guitar pedals with this Pedal Building Course for the Soldering Practice Kit.",
+   "chapters" : [
+      {
+         "icon" : "fa-book",
+         "title" : "Learn to Solder: For DIY Pedals and Hobby Electronics",
+         "menu_title" : "Learn to Solder",
+         "directory" : "",
+         "pages" : [
+             {
+                 "file" : "index",
+                 "title" : "Learn How to Solder",
+                 "subtitle" : "so you can build DIY guitar pedals, synth, and other hobby electronics"
+             }
+         ]
+      },
+      {
+         "icon" : "fa-map-signs",
+         "title" : "Getting Started",
+         "directory" : "getting_started",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Soldering Practice Kit"
+            },
+            {
+               "file" : "site_howto",
+               "title" : "How To Use This Site"
+            },
+            {
+               "file" : "why",
+               "title" : "DONT'T SKIP THIS STEP"
+            },
+            {
+               "file" : "who",
+               "title" : "Who Is This For?",
+               "comprehensive" : 1
+            }
+         ]
+      },
+      {
+         "icon" : "fa-toolbox",
+         "title" : "Tools and Materials",
+         "directory" : "tools_and_materials",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Kit Contents"
+            },
+            {
+               "file" : "required",
+               "title" : "Required Tools"
+            },
+            {
+               "file" : "optional",
+               "title" : "Optional Tools"
+            },
+            {
+               "file" : "my_philosophy",
+               "title" : "Get Geared Up For About $15",
+               "comprehensive": 1
+            },
+            {
+               "file" : "soldering_irons",
+               "title" : "Soldering Irons: Good vs. Cheap",
+               "comprehensive": 1
+            },
+            {
+               "file" : "soldering_tip",
+               "title" : "Choosing a Tip For Your Iron",
+               "comprehensive": 1
+            },
+            {
+               "file" : "solder",
+               "title" : "Choosing Solder",
+               "comprehensive": 1
+            }
+         ]
+      },
+      {
+         "icon" : "fa-list-check",
+         "title" : "Preparing to Solder",
+         "directory" : "preparing_to_solder",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Protect Yourself (and your table)"
+            },
+            {
+               "file" : "temperature",
+               "title" : "Soldering Temperature: 350°C"
+            },
+            {
+               "file" : "tinning",
+               "video": "#TODO",
+               "title" : "Tinning: The Key to Easy Soldering"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-eye-dropper",
+         "title" : "How to Solder",
+         "directory" : "how_to_solder",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Let's Practice!"
+            },
+            {
+               "file" : "quick_overview",
+               "title" : "Quick Overview: Soldering a Resistor"
+            },
+            {
+               "file" : "step_by_step",
+               "video": "#TODO",
+               "title" : "Step by Step: How to Solder"
+            },
+            {
+               "file" : "bad_joints",
+               "title" : "Bad Solder Joints"
+            },
+            {
+               "file" : "common_mistakes",
+               "title" : "Common Mistakes to Avoid",
+               "comprehensive" : 1
+            },
+            {
+               "file" : "clip_leads",
+               "video": "#TODO",
+               "title" : "Clip the Leads"
+            },
+            {
+               "file" : "practice_and_experiment",
+               "title" : "Practice and Experiment"
+            },
+            {
+               "file" : "finish",
+               "video": "#TODO",
+               "title" : "Finishing Up"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-lightbulb",
+         "title" : "Flashlight Project",
+         "directory" : "flashlight",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Gather Parts"
+            },
+            {
+               "file" : "buttons",
+               "video": "#TODO",
+               "title" : "Buttons"
+            },
+            {
+               "file" : "resistors",
+               "video": "#TODO",
+               "title" : "Resistors"
+            },
+            {
+               "file" : "leds",
+               "video": "#TODO",
+               "title" : "Light Emitting Diodes (LEDs)"
+            },
+            {
+               "file" : "battery_holder",
+               "video": "#TODO",
+               "title" : "Battery Holder"
+            },
+            {
+               "file" : "finish",
+               "title" : "Finishing Up",
+               "comprehensive" : 1
+            },
+            {
+               "file" : "next",
+               "title" : "Next Steps",
+               "quick" : 1
+            }
+         ]
+      },
+      {
+         "icon" : "fa-exclamation-circle",
+         "title" : "When Things Go Wrong",
+         "directory" : "troubleshooting",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "title" : "Seeking Help"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "bad_solder_joints",
+               "title" : "Problem: Bad Solder Joints"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "burnt_pad",
+               "title" : "Problem: Burnt or Lifted Pad"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "component_wrong_spot",
+               "video": "#TODO",
+               "title" : "Problem: Component Placed in the Wrong Spot"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "tip_wont_tin",
+               "video": "#TODO",
+               "title" : "Problem: Tip Won't Tin"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "anything_else",
+               "title" : "Problem: Anything Else!"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-gears",
+         "title" : "How Does It Work?",
+         "directory" : "how_does_it_work",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "title" : "Prequisites"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "reading_schematics",
+               "title" : "Reading Schematics"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "flashlight_analysis",
+               "title" : "Analyzing the Flashlight Circuit"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "learning_more",
+               "title" : "Learning More"
+            }
+         ]
+      }
+   ]
+}
