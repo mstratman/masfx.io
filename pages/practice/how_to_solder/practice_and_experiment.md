@@ -2,7 +2,7 @@
 
 Solder more joints, but this time don't apply heat for long enough, or only heat the resistor lead, or only heat the pad. Experiment to see what happens.
 
-Solder all the resistors to the board and learn to recognize when the solder...
+Solder all the resistors to the circuit board and learn to recognize when the solder...
 
 - is flowing freely, and when you feel resistance because it's not yet hot enough
 - has flowed across the pad

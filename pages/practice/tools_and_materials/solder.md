@@ -25,7 +25,7 @@ If you are soldering on a sensitive surface like a kitchen table, lay down newsp
 
 ## Tin/Lead Ratio:
 
-**60/40 or 63/37** are the most popular for DIY electronics, and the difference between them is negligible. Just choose whichever is cheaper or more readily available.
+**60/40 or 63/37** are the most popular for DIY electronics, and the difference between them is negligible. Choose whichever is cheaper or more readily available.
 
 ## Width of Solder Wire
 
@@ -47,7 +47,7 @@ Flux is critical for soldering because it removes layers of oxidation on your co
   <dt>Rosin core:</dt>
   <dd> An aggressive flux that will work well for most situations, including older, moderately corroded parts. However it leaves a thick, sticky residue that must be cleaned with isopropyl alcohol (rubbing alcohol). Stronger mixes, e.g. 91%, make the job easier</dd>
   <dt>No clean:</dt>
-  <dd>This is the least aggressive, and leaves less residue on the board so it's often not cleaned off. This is my preferred type. If you'd like to clean it, use isopropyl alcohol just like with rosin core</dd>
+  <dd>This is the least aggressive, and leaves less residue on the circuit board so it's often not cleaned off. This is my preferred type. If you'd like to clean it, use isopropyl alcohol just like with rosin core</dd>
   <dt>Water soluble [not recommended]</dt>
   <dd>As the name implies it is cleaned with water, so care must be taken when using water-sensitive components. This is also a very aggressive flux. Because of various problems water causes (e.g. from minerals and oxide), I don't recommend using this flux.</dd>
 </dl>

@@ -23,5 +23,5 @@ Whatever your level of experience, this kit will allow you to build a cute LED f
 
 Use this document and the accompanying video to fill in any gaps in your knowledge or clarify anything you're not confident in.
 
-If you have experience but just want to confident in your technique, you can also try the Quick Walkthrough instead.
+If you have experience but just want to be confident in your technique, you can also try the Quick Walkthrough instead.
 

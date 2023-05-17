@@ -8,7 +8,7 @@ Wear safety glasses!
 
 **Hold one or two leads with one hand, and use your cutters to clip them free with the other hand**. Holding them will not only greatly increase your safety, but will also make cleanup easier.
 
-Clip the lead, but not the solder. You'll have a little dome of solder on the board; It shouldn't be flush.
+Clip the lead, but not the solder. You'll have a little dome of solder on the circuit board; It shouldn't be flush.
 
 Save the clipped leads for additional practice when you run out of resistors.
 

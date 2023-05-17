@@ -9,6 +9,21 @@
       [% IF subtitle %]<h2 class="docs-subheading mt-0">[% subtitle %]</h2>[% END %]
     </header>
 
+    [% IF video %]
+    <div class="mb-3 text-center">
+      <a class="video-link btn btn-outline-info" href="[% video %]">
+        <i class="fas fa-video"></i>
+        Video: Watch This Chapter
+      </a>
+      <div id="videoplaceholder" style="display:none; width: 320px; height: 180px; border: 1px solid gray;" class="p-2 m-2 mx-auto">
+        Sorry, this book is still a draft, and the <strong>video is not yet available</strong>.
+        <br>
+        <br>
+        ETA: Late Summer 2023
+      </div>
+    </div>
+    [% END %]
+
     [% content %]
 
     <div class="container mt-5">

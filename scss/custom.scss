@@ -10,11 +10,11 @@ h2, .docs-article h2 {
 }
 h3, .docs-article h3 {
   margin-top: 1rem;
-}
-
-h3, .docs-article h3 {
   font-style: italic;
-  color: $theme-text-color-secondary;
+  color: $theme-text-color-light;
+  span {
+    font-size: 1rem;
+  }
 }
 
 .docs-article ul.tight li {

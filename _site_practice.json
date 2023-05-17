@@ -94,6 +94,7 @@
             },
             {
                "file" : "tinning",
+               "video": "#TODO",
                "title" : "Tinning: The Key to Easy Soldering"
             }
          ]
@@ -113,6 +114,7 @@
             },
             {
                "file" : "step_by_step",
+               "video": "#TODO",
                "title" : "Step by Step: How to Solder"
             },
             {
@@ -126,6 +128,7 @@
             },
             {
                "file" : "clip_leads",
+               "video": "#TODO",
                "title" : "Clip the Leads"
             },
             {
@@ -134,6 +137,7 @@
             },
             {
                "file" : "finish",
+               "video": "#TODO",
                "title" : "Finishing Up"
             }
          ]
@@ -149,18 +153,22 @@
             },
             {
                "file" : "buttons",
+               "video": "#TODO",
                "title" : "Buttons"
             },
             {
                "file" : "resistors",
+               "video": "#TODO",
                "title" : "Resistors"
             },
             {
                "file" : "leds",
+               "video": "#TODO",
                "title" : "Light Emitting Diodes (LEDs)"
             },
             {
                "file" : "battery_holder",
+               "video": "#TODO",
                "title" : "Battery Holder"
             },
             {
@@ -182,26 +190,34 @@
          "comprehensive" : 1,
          "pages" : [
             {
+               "comprehensive" : 1,
                "file" : "index",
                "title" : "Seeking Help"
             },
             {
+               "comprehensive" : 1,
                "file" : "bad_solder_joints",
                "title" : "Problem: Bad Solder Joints"
             },
             {
+               "comprehensive" : 1,
                "file" : "burnt_pad",
                "title" : "Problem: Burnt or Lifted Pad"
             },
             {
+               "comprehensive" : 1,
                "file" : "component_wrong_spot",
+               "video": "#TODO",
                "title" : "Problem: Component Placed in the Wrong Spot"
             },
             {
+               "comprehensive" : 1,
                "file" : "tip_wont_tin",
-               "title" : "Problem: Soldering Tip Won't Tin; Solder Balls Up and Falls"
+               "video": "#TODO",
+               "title" : "Problem: Tip Won't Tin"
             },
             {
+               "comprehensive" : 1,
                "file" : "anything_else",
                "title" : "Problem: Anything Else!"
             }
@@ -214,16 +230,24 @@
          "comprehensive" : 1,
          "pages" : [
             {
+               "comprehensive" : 1,
                "file" : "index",
-               "title" : "This and Other Resources"
+               "title" : "Prequisites"
             },
             {
+               "comprehensive" : 1,
                "file" : "reading_schematics",
                "title" : "Reading Schematics"
             },
             {
+               "comprehensive" : 1,
                "file" : "flashlight_analysis",
                "title" : "Analyzing the Flashlight Circuit"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "learning_more",
+               "title" : "Learning More"
             }
          ]
       }

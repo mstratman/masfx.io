@@ -3,3 +3,4 @@ config.codekit3
 attic/
 tmp/
 *.swp
+SOURCE_GRAPHICS

@@ -159,6 +159,15 @@ window.onload=function()
   //var lightbox = new SimpleLightbox('a.lightbox', {/* options */});
   Fancybox.bind("[data-fancybox]", {});
   checkDonePages();
+
+  // TODO: This should change when we add videos
+  var videoBtns = document.querySelectorAll('.video-link');
+  videoBtns.forEach((vb) => {
+	  vb.addEventListener('click', (e) => {
+      e.preventDefault();
+      document.getElementById('videoplaceholder').style.display = "";
+    });
+  });
 };
 
 window.onresize=function() 
