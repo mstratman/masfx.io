@@ -12,7 +12,7 @@
              {
                  "file" : "index",
                  "title" : "Learn How to Solder",
-                 "subtitle" : "so you can build DIY guitar pedals, synth, and other hobby electronics"
+                 "subtitle" : "for DIY guitar pedals, synth, and other hobby electronics"
              }
          ]
       },
@@ -36,6 +36,7 @@
             {
                "file" : "who",
                "title" : "Who Is This For?",
+               "video" : 1,
                "comprehensive" : 1
             }
          ]
@@ -102,7 +103,7 @@
       {
          "icon" : "fa-eye-dropper",
          "title" : "How to Solder",
-         "directory" : "how_to_solder",
+         "directory" : "soldering",
          "pages" : [
             {
                "file" : "index",
@@ -248,6 +249,19 @@
                "comprehensive" : 1,
                "file" : "learning_more",
                "title" : "Learning More"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-circle-check",
+         "title" : "What's Next?",
+         "directory" : "next",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "title" : "Do you feel comfortable and confident?"
             }
          ]
       }

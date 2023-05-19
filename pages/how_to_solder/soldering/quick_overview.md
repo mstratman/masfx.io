@@ -1,4 +1,6 @@
-<img class="img-fluid float-start mx-3 " style="max-width: 80px" src="/img/practice/resistor-bent.png" alt="Bend the resistor legs" />
+<a data-fancybox href="/img/practice/resistor-bent.png">
+  <img class="img-fluid float-start mx-3 " style="max-width: 80px" src="/img/practice/resistor-bent.png" alt="Bend the resistor legs" />
+</a>
 
 1) **Bend the leads (or legs) at a right angle** to the body of the resistor. Put the leads through the holes in the practice area of the PCB <small>(Printed Circuit Board)</small>.
  
@@ -12,4 +14,6 @@
 
 Keep these clippings for additional solder practice!
 
-<img class="img-fluid" src="/img/practice/soldering-steps-overview.png" />
+<a data-fancybox href="/img/practice/soldering-steps-overview.png">
+  <img class="img-fluid" src="/img/practice/soldering-steps-overview.png" />
+</a>

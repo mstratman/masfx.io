@@ -1,6 +1,8 @@
 <div class="columns" markdown="1">
 
-<img class="img-fluid float-start" style="max-width: 100px" src="/img/practice/soldering-tin.png" alt="Tinning the tip of a soldering iron" />
+<a data-fancybox href="/img/practice/soldering-tin.png">
+  <img class="img-fluid float-start" style="max-width: 100px" src="/img/practice/soldering-tin.png" alt="Tinning the tip of a soldering iron" />
+</a>
 
 You need to **keep a thin layer of solder on your tip** at all times. Without it you won't be able to transfer heat to your solder joint.
 
@@ -11,7 +13,9 @@ Once your tip has a nice layer of solder flowed across it, it is tinned! This is
 ## Troubleshooting
 
 <figure class="figure text-center">
-  <img class="figure-img img-fluid" style="max-width: 190px" src="/img/practice/soldering-tin-problem.png" />
+  <a data-fancybox href="/img/practice/soldering-tin-problem.png">
+    <img class="figure-img img-fluid" style="max-width: 190px" src="/img/practice/soldering-tin-problem.png" />
+  </a>
   <figcaption class="figure-caption">Problem: The solder balls up and doesn't flow across the tip</figcaption>
 </figure>
 

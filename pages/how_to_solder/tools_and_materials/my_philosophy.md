@@ -18,7 +18,9 @@ You'll also hear the old adage to "*buy the best tool you can afford*." This mak
 
 Go on your favorite marketplace site (e.g. Amazon, Ebay, Ali, etc) and **search for "SOLDERING IRON KIT."**
 
+<a data-fancybox href="/img/practice/tools_and_materials/tool-soldering-kit.png">
 <img class="img-fluid float-md-img" src="/img/practice/tools_and_materials/tool-soldering-kit.png" />
+</a>
 
 For approximately $15 USD you should be able to get
 
@@ -31,5 +33,5 @@ There are tons of variations on these kits, with more or fewer items in them. Lo
 
 You could alternatively buy the iron for about $8 and piece together the other supplies (notably side cutters and solder).
 
-If you're happy with a kit, skip to [PREPARING TO SOLDER](/practice/preparing_to_solder/) section. If you'd rather gear up piece by piece, [read on...](/practice/tools_and_materials/soldering_irons.html)
+If you're happy with a kit, skip to [PREPARING TO SOLDER](/how_to_solder/preparing_to_solder/) section. If you'd rather gear up piece by piece, [read on...](/how_to_solder/tools_and_materials/soldering_irons.html)
 

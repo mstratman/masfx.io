@@ -6,7 +6,7 @@ When you're starting to feel confident, you can solder buttons, LEDs, current li
   </div>
 
 <div class="col-12 col-sm-4">
-  <a class="lightbox" href="/img/practice/practice-kit-pcbs.png"><img style="max-height: 300px;" class="img-fluid" src="/img/practice/practice-kit-pcbs.png" alt="Practice Soldering Kit PCBs"/></a>
+  <a data-fancybox href="/img/practice/practice-kit-pcbs.png"><img style="max-height: 300px;" class="img-fluid" src="/img/practice/practice-kit-pcbs.png" alt="Practice Soldering Kit PCBs"/></a>
 </div>
 
 ## For Absolute Beginners...

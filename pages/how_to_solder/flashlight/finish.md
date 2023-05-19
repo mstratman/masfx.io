@@ -1,5 +1,5 @@
 
-[Just as you did when practicing](/practice/how_to_solder/finish.html), finish up by cleaning and tinning your tip, give it a bit of extra protective solder, wash your hands, and optionally clean the flux off the PCB.
+[Just as you did when practicing](/how_to_solder/soldering/finish.html), finish up by cleaning and tinning your tip, give it a bit of extra protective solder, wash your hands, and optionally clean the flux off the PCB.
 
 [% WRAPPER "callout.html" type="success" heading="CELEBRATE" %]
 Press the buttons and  bask in the glorious light you created!

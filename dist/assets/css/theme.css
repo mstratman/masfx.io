@@ -11442,9 +11442,14 @@ html {
   font-size: 14px;
 }
 
-.todo {
+.todo, .TODO {
   font-weight: bold;
   color: red;
+}
+
+.todo-subdued {
+  color: red;
+  font-size: small;
 }
 
 h2.docs-subheading, .docs-subheading.h2 {

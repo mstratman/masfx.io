@@ -1,0 +1,111 @@
+<p>A schematic is the primary way we <strong>communicate electrical circuits</strong>. It's a drawing of the electrical paths and connections between the components that make up the circuit. Here is the schematic for our flashlight project:</p>
+
+<div class="text-center">
+  <figure class="figure text-center">
+    <a data-fancybox href="/img/practice/schematic-practice.png">
+      <img class="figure-img img-fluid" style="max-width: 500px" src="/img/practice/schematic-practice.png" alt="Schematic for the soldering practice kit flashlight" />
+    </a>
+    <figcaption class="figure-caption">Schematic for the flashlight project in the Soldering Practice Kit</figcaption>
+  </figure>
+</div>
+
+<p>Now let's replace the R2, SW2, and D2 symbols with illustrations of those components to show how the schematic is very nearly a drawing of the actual physical circuit.</p>
+
+<div class="text-center">
+  <figure class="figure text-center mx-auto">
+    <a data-fancybox class="lightbox" href="/img/practice/schematic-practice-components.png">
+
+      <img class="figure-img img-fluid" style="max-width: 500px" src="/img/practice/schematic-practice-components.png" alt="schematic shown with components replacing the symbols." />
+    </a>
+    <figcaption class="figure-caption">Symbols replaced with illustrations</figcaption>
+  </figure>
+</div>
+
+<h2 id="symbolsanddesignators">Symbols and Designators</h2>
+
+<p><strong>Different symbols</strong> are used to represent different types of components. Here are some that appear in this schematic:</p>
+
+<figure class="figure text-center">
+  <a data-fancybox class="lightbox" href="/img/practice/symbol-resistor.png">
+
+    <img class="figure-img img-fluid" style="max-width: 125px" src="/img/practice/symbol-resistor.png" alt="Schematic symbol for a resistor" />
+  </a>
+  <figcaption class="figure-caption">Resistor</figcaption>
+</figure>
+<figure class="figure text-center">
+  <a data-fancybox class="lightbox" href="/img/practice/symbol-led.png">
+
+    <img class="figure-img img-fluid" style="max-width: 125px" src="/img/practice/symbol-led.png" alt="Schematic symbol for a led" />
+  </a>
+  <figcaption class="figure-caption">LED</figcaption>
+</figure>
+<figure class="figure text-center">
+  <a data-fancybox class="lightbox" href="/img/practice/symbol-button.png">
+
+    <img class="figure-img img-fluid" style="max-width: 125px" src="/img/practice/symbol-button.png" alt="Schematic symbol for a button" />
+  </a>
+  <figcaption class="figure-caption">Button</figcaption>
+</figure>
+<figure class="figure text-center">
+  <a data-fancybox class="lightbox" href="/img/practice/symbol-battery.png">
+
+    <img class="figure-img img-fluid" style="max-width: 125px" src="/img/practice/symbol-battery.png" alt="Schematic symbol for a battery" />
+  </a>
+  <figcaption class="figure-caption">Battery</figcaption>
+</figure>
+
+<p><a target="_blank" href="https://www.electronics-tutorials.ws/resources/basic-schematic-symbols.html">You can find a list of the most common symbols here</a>.</p>
+
+<p><strong>Reference designators</strong> are a combination of letters and numbers that uniquely identify a component in the circuit. e.g. <em>R1</em> is resistor 1, <em>SW2</em> is switch 2, and <em>D3</em> and diode 3.</p>
+<p>Along with the reference designator a schematic will also list the <strong>numeric value of a component</strong>, if it has one. For example our resistors all have a value of 470Ω. The Greek letter omega (Ω) stands for Ohms, the unit of electrical resistance. You can learn more about this in our <a href="/how_pedals_work" disabled>How Pedals Work</a> book <span class="todo-subdued">(coming soon)</span></p>
+
+
+<h2 id="netselectricalconnections">Nets: Electrical Connections</h2>
+<div class="row">
+  <div class="col-12 col-md-6 col-lg-8">
+    <p><strong>Nets</strong> are what we call the connections between components. They are most commonly drawn with <strong>lines that represent electrical paths</strong>, typically either wires or copper traces on the PCB.</p>
+
+    <p>The dots where lines intersect indicate those paths are connected.  If some of the intersections don't have dots, those paths are NOT connected electrically.</p>
+    <p>An alternate convention, which isn't used in this book and is shown here for future reference, is to omit the dots and assume an electrical connection when lines intersect UNLESS the line curves when crossing paths with another.</p>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+    <figure class="figure text-center">
+      <a data-fancybox class="lightbox" href="/img/practice/schematic-connections.png">
+
+        <img class="figure-img img-fluid" src="/img/practice/schematic-connections.png" alt="Two conventions for connections on an electronics schematic" />
+      </a>
+      <figcaption class="figure-caption">One of these two conventions will be used in most schematics. Look for EITHER dots OR curved intersection lines to determine which is being used.</figcaption>
+    </figure>
+  </div>
+</div>
+
+
+
+<h2 id="netsymbols">Net Symbols</h2>
+<p>Nets are often drawn with lines, as seen above, but we can also use <strong>special net symbols</strong>. We use these to keep the schematic drawing tidy and to avoid having too many criss-crossing or distracting lines.</p>
+<p>Any lines connected to a net symbol are assumed to be connected to any others connected to the same symbol.</p>
+<p>Ground (or GND) and the positive voltage (often VCC), or reference voltage (often VBIAS or VREF) are the most common, but you may see others too.</p>
+<p>The following two schematics are equivalent. They use conventional net symbols for GND and voltage sources.</p>
+
+<div class="row">
+  <div class="col-6 px-3">
+    <a data-fancybox href="/img/practice/schematic-practice.png">
+      <img class="figure-img img-fluid" src="/img/practice/schematic-practice.png" alt="Schematic for the soldering practice kit flashlight" />
+    </a>
+  </div>
+  <div class="col-6 px-3">
+    <a data-fancybox href="/img/practice/schematic-practice-alt.png">
+      <img class="figure-img img-fluid" src="/img/practice/schematic-practice-alt.png" alt="Using net symbols in the schematic" />
+    </a>
+  </div>
+</div>
+
+<p>You may also see other nets labeled with flags such as this:</p>
+<img src="/img/practice/schematic-flag.png" style="max-height:30px;" alt="Net symbol in a schematic" />
+
+<h2 id="groundnet">Ground Net</h2>
+[% WRAPPER "callout.html" type="info" heading="Ground Nets" %]
+<p>One of the most common points of confusion I see in DIY pedal forums is when people are talking about what to "ground to." They want to ground their pedal "<em>to</em>" something.</p>
+<p>While you probably could form a correct answer around such questions, it'll serve you better to simply throw out the notion and instead <strong>think of the GND as any other net</strong>.  Ground points in your circuit are simply points that are connected TO EACH OTHER. That's it.</p>
+<p>GND is special in that it's a shared reference point <small>(remember a <em>voltage</em> is a <em>difference</em> in charge between two measured points, of which GND is commonly used as one)</small> between your guitar pedal, amplifier, and guitar. The sleeve of the instrument cable is used as a common connection between all these circuits. It lets them measure voltage differences from a commmon reference point.</p>
+[% END %]

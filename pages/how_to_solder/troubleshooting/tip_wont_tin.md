@@ -1,5 +1,7 @@
 <figure class="figure text-center float-md">
-  <img class="figure-img img-fluid" style="max-width: 190px" src="/img/practice/soldering-tin-problem.png" />
+  <a data-fancybox href="/img/practice/soldering-tin-problem.png">
+    <img class="figure-img img-fluid" style="max-width: 190px" src="/img/practice/soldering-tin-problem.png" />
+  </a>
   <figcaption class="figure-caption">Problem: The solder balls up and doesn't flow across the tip</figcaption>
 </figure>
 

@@ -110,6 +110,7 @@ sub generate_sidebar {
 
     my $rv = '';
     $tmpl->process("sidebar.html", {
+            site_directory => $site->{directory},
             current_page_id => $cur_id,
             chapters => $menu,
             chapters_json => $json->encode($menu),

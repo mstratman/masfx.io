@@ -1,0 +1,17 @@
+{
+   "title" : "DIY Guitar Pedal Books by MAS Effects",
+   "directory" : "",
+   "meta_desc" : "Learn how to solder, how to build guitar pedals, and how pedals work with these free books by MAS Effects",
+   "chapters" : [
+      {
+         "title" : "masfx.io",
+         "directory" : "",
+         "pages" : [
+             {
+                 "file" : "index",
+                 "title" : "Books by MAS Effects"
+             }
+         ]
+      }
+   ]
+}

@@ -1,6 +1,7 @@
 html { font-size: 14px; }
 
-.todo { font-weight: bold; color: red; }
+.todo, .TODO { font-weight: bold; color: red; }
+.todo-subdued { color: red; font-size: small;}
 
 h2.docs-subheading {
   color: $theme-text-color-light;

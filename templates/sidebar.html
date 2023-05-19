@@ -10,12 +10,14 @@
   <script id="sidebar_structure" type="text/json">[% chapters_json %]</script>
   <nav id="docs-nav" class="docs-nav navbar">
     <ul class="section-items list-unstyled nav flex-column pb-3">
-      <li class="nav-item section-title">
-        <a class="nav-link" href="/">
-          <span class="theme-icon-holder me-2"><i class="fas fa-list"></i></span>
-          Back to Books
-        </a>
-      </li>
+      [% IF site_directory %]
+        <li class="nav-item section-title">
+          <a class="nav-link" href="/">
+            <span class="theme-icon-holder me-2"><i class="fas fa-list"></i></span>
+            Back to Books
+          </a>
+        </li>
+      [% END %]
       [% FOREACH c IN chapters %]
         <li class="nav-item nav-collapse section-title [% IF ! loop.first %]mt-3[% END %] [% IF c.quick %]cq[% ELSIF c.comprehensive %]cc[% END %]">
           <a class="nav-link nav-chapter [% IF c.is_current %]active[% END %]" href="[% c.href %]">
