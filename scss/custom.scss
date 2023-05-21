@@ -1,5 +1,15 @@
 html { font-size: 14px; }
 
+a.plain {
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-card {
+  border: 1px solid $theme-border-color;
+  padding-left: 0px;
+}
+
 .todo, .TODO { font-weight: bold; color: red; }
 .todo-subdued { color: red; font-size: small;}
 
@@ -8,13 +18,20 @@ h2.docs-subheading {
 }
 h2, .docs-article h2 {
   margin-top: 2rem;
+  span {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 100%;
+  }
 }
 h3, .docs-article h3 {
   margin-top: 1rem;
   font-style: italic;
   color: $theme-text-color-light;
   span {
+    display: inline-block;
     font-size: 1rem;
+    line-height: 100%;
   }
 }
 
@@ -24,6 +41,16 @@ h3, .docs-article h3 {
 }
 
 
+@media (max-width: 575px) {
+  .book-grid-cover {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .book-grid-cover {
+    text-align: left;
+  }
+}
 
 @media (min-width: 992px) {
   .columns {

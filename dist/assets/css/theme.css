@@ -11442,6 +11442,16 @@ html {
   font-size: 14px;
 }
 
+a.plain {
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-card {
+  border: 1px solid #efefef;
+  padding-left: 0px;
+}
+
 .todo, .TODO {
   font-weight: bold;
   color: red;
@@ -11459,6 +11469,11 @@ h2.docs-subheading, .docs-subheading.h2 {
 h2, .h2, .docs-article h2 {
   margin-top: 2rem;
 }
+h2 span, .h2 span, .docs-article h2 span {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 100%;
+}
 
 h3, .h3, .docs-article h3 {
   margin-top: 1rem;
@@ -11466,7 +11481,9 @@ h3, .h3, .docs-article h3 {
   color: #828d9f;
 }
 h3 span, .h3 span, .docs-article h3 span {
+  display: inline-block;
   font-size: 1rem;
+  line-height: 100%;
 }
 
 .docs-article ul.tight li {
@@ -11474,6 +11491,16 @@ h3 span, .h3 span, .docs-article h3 span {
   padding-bottom: 0;
 }
 
+@media (max-width: 575px) {
+  .book-grid-cover {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .book-grid-cover {
+    text-align: left;
+  }
+}
 @media (min-width: 992px) {
   .columns {
     -webkit-column-count: 2;
