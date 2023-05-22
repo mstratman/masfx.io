@@ -9,7 +9,7 @@
       [% IF subtitle %]<h2 class="docs-subheading mt-0">[% subtitle %]</h2>[% END %]
     </header>
 
-    [% IF video %]
+    [% BLOCK video_block %]
     <div class="mb-3 text-center">
       <a class="video-link btn btn-outline-info" href="[% video %]">
         <i class="fas fa-video"></i>
@@ -24,7 +24,13 @@
     </div>
     [% END %]
 
+    [% IF video && ! video_after_content %]
+      [% INCLUDE video_block %]
+    [% END %]
     [% content %]
+    [% IF video && video_after_content %]
+      [% INCLUDE video_block %]
+    [% END %]
 
     <div class="container mt-5">
       <div class="row gx-4">

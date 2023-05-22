@@ -12,7 +12,9 @@
              {
                  "file" : "index",
                  "title" : "Learn How to Solder",
-                 "subtitle" : "for DIY guitar pedals, synth, and other hobby electronics"
+                 "subtitle" : "for DIY guitar pedals, synth, and other hobby electronics",
+                 "video" : 1,
+                 "video_after_content" : 1
              }
          ]
       },
