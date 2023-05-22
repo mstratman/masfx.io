@@ -185,6 +185,34 @@
          ]
       },
       {
+         "icon" : "fa-gears",
+         "title" : "How Does It Work?",
+         "directory" : "how_does_it_work",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "title" : "Prequisites"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "reading_schematics",
+               "title" : "Reading Schematics"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "flashlight_analysis",
+               "title" : "Analyzing the Flashlight Circuit"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "learning_more",
+               "title" : "Learning More"
+            }
+         ]
+      },
+      {
          "icon" : "fa-exclamation-circle",
          "title" : "When Things Go Wrong",
          "directory" : "troubleshooting",
@@ -221,34 +249,6 @@
                "comprehensive" : 1,
                "file" : "anything_else",
                "title" : "Problem: Anything Else!"
-            }
-         ]
-      },
-      {
-         "icon" : "fa-gears",
-         "title" : "How Does It Work?",
-         "directory" : "how_does_it_work",
-         "comprehensive" : 1,
-         "pages" : [
-            {
-               "comprehensive" : 1,
-               "file" : "index",
-               "title" : "Prequisites"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "reading_schematics",
-               "title" : "Reading Schematics"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "flashlight_analysis",
-               "title" : "Analyzing the Flashlight Circuit"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "learning_more",
-               "title" : "Learning More"
             }
          ]
       },
