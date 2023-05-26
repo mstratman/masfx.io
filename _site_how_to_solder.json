@@ -12,8 +12,9 @@
              {
                  "file" : "index",
                  "title" : "Learn How to Solder",
+                 "page_title": "How to Solder DIY Pedals and Hobby Electronics",
                  "subtitle" : "for DIY guitar pedals, synth, and other hobby electronics",
-                 "video" : 1,
+                 "video" : "#TODO",
                  "video_after_content" : 1
              }
          ]
@@ -38,7 +39,7 @@
             {
                "file" : "who",
                "title" : "Who Is This For?",
-               "video" : 1,
+               "video" : "#TODO",
                "comprehensive" : 1
             }
          ]
@@ -50,18 +51,22 @@
          "pages" : [
             {
                "file" : "index",
+               "page_title" : "Soldering Practice Kit Contents",
                "title" : "Kit Contents"
             },
             {
                "file" : "required",
+               "page_title" : "Required Tools for the Soldering Practice Kit",
                "title" : "Required Tools"
             },
             {
                "file" : "optional",
+               "page_title" : "Optional Tools for the Soldering Practice Kit",
                "title" : "Optional Tools"
             },
             {
                "file" : "my_philosophy",
+               "page_title" : "Only $15 to Get Started Soldering",
                "title" : "Get Geared Up For About $15",
                "comprehensive": 1
             },
@@ -72,6 +77,7 @@
             },
             {
                "file" : "soldering_tip",
+               "page_title" : "Choosing a Tip For Your Soldering Iron",
                "title" : "Choosing a Tip For Your Iron",
                "comprehensive": 1
             },
@@ -89,6 +95,7 @@
          "pages" : [
             {
                "file" : "index",
+               "page_title" : "Before Soldering: Protect Yourself (and your table)",
                "title" : "Protect Yourself (and your table)"
             },
             {
@@ -109,6 +116,7 @@
          "pages" : [
             {
                "file" : "index",
+               "page_title" : "Let's Practice Soldering!",
                "title" : "Let's Practice!"
             },
             {
@@ -126,16 +134,19 @@
             },
             {
                "file" : "common_mistakes",
+               "page_title" : "Common Mistakes to Avoid When Soldering",
                "title" : "Common Mistakes to Avoid",
                "comprehensive" : 1
             },
             {
                "file" : "clip_leads",
                "video": "#TODO",
+               "page_title" : "Clip the Leads After Soldering",
                "title" : "Clip the Leads"
             },
             {
                "file" : "practice_and_experiment",
+               "page_title" : "Practice and Experiment for Perfect Solder Joints Every Time",
                "title" : "Practice and Experiment"
             },
             {
@@ -152,31 +163,37 @@
          "pages" : [
             {
                "file" : "index",
+               "page_title" : "Gather Parts: MAS Effects Flashlight Project",
                "title" : "Gather Parts"
             },
             {
                "file" : "buttons",
                "video": "#TODO",
+               "page_title" : "Buttons: MAS Effects Flashlight Project",
                "title" : "Buttons"
             },
             {
                "file" : "resistors",
                "video": "#TODO",
+               "page_title" : "Resistors: MAS Effects Flashlight Project",
                "title" : "Resistors"
             },
             {
                "file" : "leds",
                "video": "#TODO",
+               "page_title" : "LEDs: MAS Effects Flashlight Project",
                "title" : "Light Emitting Diodes (LEDs)"
             },
             {
                "file" : "battery_holder",
                "video": "#TODO",
+               "page_title" : "Battery Holder: MAS Effects Flashlight Project",
                "title" : "Battery Holder"
             },
             {
                "file" : "finish",
                "title" : "Finishing Up",
+               "page_title" : "Finishing Up the MAS Effects Flashlight Project",
                "comprehensive" : 1
             },
             {
@@ -195,11 +212,13 @@
             {
                "comprehensive" : 1,
                "file" : "index",
+               "page_title" : "Prequisites to Understand the Flashlight Circuit",
                "title" : "Prequisites"
             },
             {
                "comprehensive" : 1,
                "file" : "reading_schematics",
+               "title" : "How To Read Schematics",
                "title" : "Reading Schematics"
             },
             {
