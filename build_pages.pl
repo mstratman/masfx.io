@@ -214,6 +214,7 @@ sub build_all {
             $i++;
 
             my $fn = $page->{md_path} ? $page->{md_path} : $page->{html_path};
+            die "$fn" unless -e $fn;
             my %vars = (
                 %$page,
                 h1_id => _Header2Label($page->{title}),
@@ -221,7 +222,7 @@ sub build_all {
                 sidebar => generate_sidebar($page, $chapter),
                 site_title => $site->{title},
                 chapter_title => $chapter->{title},
-                meta_description => $site->{meta_desc},
+                meta_description => $page->{meta_desc} || $site->{meta_desc},
                 pages_prev => \@prev,
                 pages_next => \@next,
             );
