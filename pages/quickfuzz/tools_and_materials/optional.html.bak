@@ -1,0 +1,23 @@
+<div class="columns" markdown="1">
+<ul>
+  <li>
+    <span class="danger"><i class="fas fa-circle-exclamation"></i></span>
+    <strong>Eye protection</strong> <i class="fas fa-glasses"></i>:
+    <em>[MOST IMPORTANT]</em>
+    This is only "optional" insomuch as you can assemble a pedal without it. But you shouldn't. Bits of solder can fly a couple feet or more, and clipped leads from components can go flying as well.
+  </li>
+  <li>
+    <span class="info"><i class="fas fa-circle-info"></i></span>
+    <em>[VERY HELPFUL]</em>
+    <strong>Something to hold the circuit board</strong>
+    while you solder:
+    Blue putty <small>(e.g. Blu-Tack, or Loctite Fun-Tak)</small> is my favorite, and it's included in your kit. <strong>Save this</strong> for your future DIY pedal builds! It can be used repeatedly.
+    Specialized tools like "helping hands" <small>(alligator clips on adjustable arms)</small>, a vice, etc can be usefulfine too.
+  </li>
+  <li><strong>Needle nose pliers</strong>: to bend leads and pull them through the circuit board more easily</li>
+  <li><strong>Small fan</strong>: to blow flux fumes away from your face or a soldering fan with attached carbon filter to draw fumes in </li>
+  <li><strong>Multimeter</strong>: any inexpensive multimeter can be useful when troubleshooting by checking for continuity between points in the circuit, as well as measuring voltages. <em>This kit is designed to make troubleshooting a very unlikely step</em></li>
+  <li><strong>Solder sucker pump</strong>: if you mistakenly place a component in the wrong spot then remove it, the hole will be plugged with solder and this can be useful to clear it out. But as we'll see, <em>this isn't usually necessary</em> anyway</li>
+</ul>
+
+</div>

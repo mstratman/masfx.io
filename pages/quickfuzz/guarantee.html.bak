@@ -1,0 +1,76 @@
+<p>I want EVERY... SINGLE... PERSON who tries a <a href="https://mas-effects.com/beginner-pedal-kit/" target="_blank">Beginner Pedal Kit</a> to end up with a working pedal.
+I've far too many sad folks whose first attempts to build a DIY guitar pedal resulted in an expensive paperweight or doorstop.
+This kit is the culmination of countless considerations to give everyone a gentler, more satisfying first experience with pedal building.
+</p>
+
+<h2 id="maseffectsguarantee">MAS Effects Guarantee</h2>
+<p>As mentioned <a href="/quickfuzz/how_to_fail.html">on the previous page</a>, I've already taken a lot of steps to ensure your success... so now I can make you this guarantee:</p>
+
+[% WRAPPER "callout.html" type="tip" no_heading="MAS Effects Guarantee" %]
+<p>
+<strong class="callout-strong">We commit: </strong>
+In the <em>unlikely event</em> you have trouble,
+  we will work with you to do whatever it takes to get your pedal working
+</p>
+<p>...if...</p>
+<p><strong class="callout-strong">You commmit</strong> to first becoming proficient at soldering.</p>
+[% END %]
+
+<h2 id="howitworks">How it Works</h2>
+
+<p>
+  <strong>First, very important, step:</strong> First you need to post pictures of the front and back of your practice kit to our
+  <a target="_blank" href="https://www.reddit.com/r/maseffects">support forum</a>.
+</p>
+
+<p>This is a wonderful opportunity to <strong>join the community</strong> of pedal builders, <strong>show off your progress</strong> from first solder joint to now, <strong>ask questions or request feedback</strong>, or just strike up a conversation!</p>
+
+<p>
+  If you or we have concerns that you're not yet proficient at soldering, no problem! You'll get there!
+  We all start somewhere, and we all move at our own pace. You'll simply want to <strong>practice more</strong>.
+</p>
+
+<p>
+  We can also provide detailed feedback and tips, and in some cases even hop on a video call with you figure out where you're having trouble.
+  If you run out of space on your practice kit you can <a target="_blank" href="https://shop.mas-effects.com/products/soldering-practice-kit-3-led-flashlight">order another</a> and use the code <em>MOREPRACTICE</em> to get another kit half off <small>(at-cost)</small>. Alternatively you can practice on perf board, vero or strip board, or any other PCBs.
+</p>
+
+<p><strong>When you're ready</strong> and confident in your soldering, get started building this pedal! In the unlikely event you run into problems, visit
+  the <a target="_blank" href="https://www.reddit.com/r/maseffects">support forum</a> and we'll figure out how to get you back on track.
+</p>
+
+[% WRAPPER "callout.html" type="danger" heading="Stop: Did you post your practice kit?" %]
+<p>Before starting this kit, please post pictures of both sides of your flashlight kit at <a href="https://www.reddit.com/r/maseffects" target="_blank">the r/maseffects forum</a>.</p>
+[% END %]
+
+<h2 id="gettinghelp">Getting Help</h2>
+
+<p>
+If you have any questions or problems, <strong>head over to <a href="https://www.reddit.com/r/maseffects" target="_blank">reddit.com/r/maseffects, our support forum</a></strong> and create a new post.
+  Usually you'll want to include pictures of your build in addition to a brief description of the trouble you're having. This is the preferred and quickest way to get your problem resolved.
+</p>
+
+<p><strong>It's not just for help</strong>, though. Feel free to also post in-progress reports, show off your new pedal when it's completed, or start a discussion on anything you think other pedal builders would enjoy.</p>
+
+<p>Other DIY pedal communities such as
+  <a target="_blank" href="https://www.reddit.com/r/diypedals">r/diypedals</a>,
+  <a target="_blank" href="https://www.diystompboxes.com/smfforum">diystompboxes.com</a>,
+  or <a target="_blank" href="https://www.freestompboxes.org">freestompboxes.org</a>
+  are great too, but you'll need to provide them with additional context like a schematic and links to the build docs.
+  It'll be quicker to use our forum, but bookmark these others since they're great communities.
+</p>
+
+<p>Finally, if none of that works for you, <a target="_blank" href="https://mas-effects.com/contact">send an email</a>.</p>
+
+[% WRAPPER "callout.html" type="note" heading="Why Reddit?" %]
+<p>Reddit offers a more visual experience compared to traditional forums. This is perfect for sharing completed pedals, or pics of PCBs when you're having a problem. It also has built-in support for getting notified when people reply, has native mobile apps, and is free.</p>
+<p>
+  It's a great platform for niche communities. For example you may also enjoy:
+  <a target="_blank" href="https://www.reddit.com/r/diypedals">r/diypedals</a>,
+  <a target="_blank" href="https://www.reddit.com/r/guitarpedals">r/guitarpedals</a>,
+  <a target="_blank" href="https://www.reddit.com/r/diyelectronics">r/diyelectronics</a>,
+  or <a target="_blank" href="https://www.reddit.com/r/diytubes">r/diytubes</a>.
+
+  I DO NOT, however, recommend using its popular subreddits <small>(i.e. anything you find on its main page, r/all, or r/popular)</small> which are often toxic.
+</p>
+[% END %]

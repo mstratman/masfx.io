@@ -234,7 +234,7 @@
          ]
       },
       {
-         "icon" : "fa-exclamation-circle",
+         "icon" : "fa-triangle-exclamation",
          "title" : "When Things Go Wrong",
          "directory" : "troubleshooting",
          "comprehensive" : 1,
@@ -274,7 +274,7 @@
          ]
       },
       {
-         "icon" : "fa-circle-check",
+         "icon" : "fa-arrow-right",
          "title" : "What's Next?",
          "directory" : "next",
          "comprehensive" : 1,

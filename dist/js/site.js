@@ -157,7 +157,12 @@ window.onload=function()
   });
 
   //var lightbox = new SimpleLightbox('a.lightbox', {/* options */});
-  Fancybox.bind("[data-fancybox]", {});
+  Fancybox.bind("[data-fancybox]", {
+    Thumbs: false,
+    compact:false,
+    backdropClick: "close"
+  });
+
   checkDonePages();
 
   // TODO: This should change when we add videos

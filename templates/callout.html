@@ -23,12 +23,14 @@
 
 <div class="callout-block [% class %]">
   <div class="content">
+    [% IF ! no_heading %]
     <h4 class="callout-title">
 	    <span class="callout-icon-holder me-1">
 		    <i class="fas [% icon %]"></i>
       </span>
       [% IF heading %][% heading %][% ELSE %][% default_heading %][% END %]
     </h4>
+    [% END %]
     [% content %]
   </div>
 </div>

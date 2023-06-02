@@ -1,0 +1,226 @@
+<p>
+  Your Beginner Pedal Kit comes with
+  a <a target="_blank" href="https://shop.mas-effects.com/products/soldering-practice-kit-3-led-flashlight">soldering practice kit</a>, 
+  a pre-drilled aluminum enclosure <small>(optionally decorated with powder coating and UV printing, or a face plate)</small>,
+  and the following parts:
+</p>
+
+<h2 id="wrench">Wrench</h2>
+<div class="row">
+  <div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2">
+    <a data-fancybox href="/img/tools_and_materials/wrench.png">
+      <img class="img img-fluid" src="/img/tools_and_materials/wrench.png" alt="Wrench included with the Beginner Pedal Kit">
+    </a>
+  </div>
+  <div class="col-6 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+    <p>The kit includes a unique 3-in-1 wrench tool so you can tighten the nuts on the potentiometers, foot switch, and phone jacks.</p>
+  </div>
+</div>
+
+
+<h2 id="presortedcomponents">Presorted Components</h2>
+<p>The components that might otherwise be difficult to identify are presorted in a labeled, cardboard tray.</p>
+<p>Most kits throw all the parts in the bag, requiring you to read the codes or colored stripes printed on them. This can be a source of frustration and mistakes, so let's avoid that! If you get any mixed up, though, you can use this table to help identify them if needed. </p>
+<p><small><em>(some images below show the parts from multiple angles to help identify them; it's NOT an indication of quantity)</em></small>
+
+<table class="table table-sm table-hover table-small-text">
+  <thead>
+    <tr>
+      <th scope="col">
+        &nbsp;
+      </th>
+      <th scope="col">
+        designator
+      </th>
+      <th scope="col">
+        value / type
+      </th>
+      <th scope="col">
+        markings
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    [% presorted_rows = [
+      {
+        u = 'resistor-510k.png'
+        a = '510k Resistor'
+        d = 'R1'
+        v = '510 kΩ'
+        m = 'green, brown, black, orange, brown'
+      },
+      {
+        u = 'resistor-1M.png'
+        a = '1M Resistor'
+        d = 'R2'
+        v = '1 MΩ'
+        m = 'brown, black, yellow, brown'
+      },
+      {
+        u = 'resistor-4.7k.png'
+        a = '4.7k Resistor'
+        d = 'R3'
+        v = '4.7 kΩ'
+        m = 'yellow, violet, black, brown, brown'
+      },
+      {
+        u = 'diode-1n4148.png'
+        a = '1N4148 diode'
+        d = 'D1'
+        v = '1N4148'
+        m = '&nbsp;'
+      },
+      {
+        u = 'diode-1n5817.png'
+        a = '1N5817 diode'
+        d = 'D2'
+        v = '1N5817'
+        m = '&nbsp;'
+      },
+      {
+        u = 'capacitor-220n.png'
+        a = '220 nF capacitor'
+        d = 'C1'
+        v = '220 nF'
+        m = '224J100 <small><em>(but may vary)</em></small>'
+      },
+      {
+        u = 'capacitor-100n.png'
+        a = '100 nF capacitor'
+        d = 'C2'
+        v = '100 nF'
+        m = '104J100 <small><em>(but may vary)</em></small>'
+      },
+      {
+        u = 'transistor-2n3904.png'
+        a = '2N3904 Transistor'
+        d = 'Q1'
+        v = '2N3904'
+        m = '&nbsp;'
+      },
+      
+    ] %]
+    [% FOREACH p IN presorted_rows %]
+    <tr>
+      <td>
+        <a data-fancybox="BOM-gallery" data-caption="[% p.d %]: [% p.a %]" href="/img/quickfuzz/tools_and_materials/[% p.u %]">
+          <img class="img img-fluid py-2" src="/img/quickfuzz/tools_and_materials/thumb-[% p.u %]" alt="[% p.a %]">
+        </a>
+      </td>
+      <td>[% p.d %]</td>
+      <td>[% p.v %]</td>
+      <td>[% p.m %]</td>
+    </tr>
+    [% END %]
+  </tbody>
+</table>
+
+<h2 id="everythingelse">Everything Else</h2>
+
+<table class="table table-hover table-small-text">
+    [% other_rows = [
+      {
+        u   = 'led.png'
+        d   = 'LED <br><small><em>(Packed with enclosure. Color depends on enclosure design)</em></small>'
+        a   = 'LED'
+        hw  = []
+      },
+      {
+        u   = 'led-spacer.png'
+        d   = 'LED spacer'
+        a   = 'LED spacer'
+        hw  = []
+      },
+      {
+        u   = 'knob.png'
+        d   = '(2) knobs, T18 push on, 6mm shaft <br><small><em>(Packed with enclosure. Color depends on enclosure design)</em></small>'
+        a   = 'Knob'
+        hw  = []
+      },
+      {
+        u   = 'dc-jack.png'
+        d   = '2.1mm DC power jack'
+        a   = 'DC Jack'
+        hw  = []
+      },
+      {
+        u   = '3pdt.png'
+        d   = '3PDT latching foot switch <br><small<em>(color varies)</em></small>'
+        a   = '3PDT foot switch'
+        hw  = [['(2) nuts', '3pdt-nut.png'], ['washer','3pdt-washer.png'],['lock washer', '3pdt-lock-washer.png']]
+      },
+      {
+        u   = 'pot-a100k.png'
+        d   = 'potentiometer, 100kΩ <br><small<em>(volume)</em></small>'
+        a   = 'Potentiometer, A100K'
+        hw  = [['nut', 'pot-nut.png'], ['washer','pot-washer.png']]
+      },
+      {
+        u   = 'pot-b10k.png'
+        d   = 'potentiometer, 10kΩ <br><small<em>(gain)</em></small>'
+        a   = 'Potentiometer, B10K'
+        hw  = [['nut', 'pot-nut.png'], ['washer','pot-washer.png']]
+      },
+      {
+        u   = 'dust-cover.png'
+        d   = '(2) potentiometer dust covers <br><small<em>(may be pre-installed)</em></small>'
+        a   = 'Potentiometer dust cover'
+        hw  = []
+      },
+      {
+        u   = 'ribbon6.png'
+        d   = 'ribbon cable, 2 inches, 6 conductors'
+        a   = 'Ribbon cable, 6 conductors'
+        hw  = []
+      },
+      {
+        u   = 'ribbon4.png'
+        d   = 'ribbon cable, 1 inch, 4 conductors'
+        a   = 'Ribbon cable, 4 conductors'
+        hw  = []
+      },
+      {
+        u   = 'phone.png'
+        d   = '(2) phone jacks, 1/4"'
+        a   = 'Phone jack'
+        hw  = [['nut', 'phone-nut.png'], ['washer','phone-washer.png']]
+      },
+    ] %]
+  <thead>
+    <tr>
+      <th scope="col">
+        &nbsp;
+      </th>
+      <th scope="col"  class="d-none d-sm-table-cell">
+        &nbsp;
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    [% FOREACH p IN other_rows %]
+    <tr>
+      <td>
+        <div class="d-block d-sm-none">
+          [% p.d %]
+        </div>
+        <a data-fancybox="BOM-gallery" data-caption="[% p.a %]" href="/img/quickfuzz/tools_and_materials/[% p.u %]">
+          <img class="img img-fluid py-2 bom-table-image" src="/img/quickfuzz/tools_and_materials/thumb-[% p.u %]" alt="[% p.a %]">
+        </a>
+        [% IF p.hw && p.hw.size > 0 %]
+          <br>
+        [% END %]
+        [% FOREACH hw IN p.hw %]
+          <div class="d-inline-block text-center">
+            [% hw.0 %]
+            <br>
+            <a data-fancybox data-caption="[% hw.0 %]" href="/img/quickfuzz/tools_and_materials/[% hw.1 %]">
+              <img class="img img-fluid py-2 bom-table-image" src="/img/quickfuzz/tools_and_materials/thumb-[% hw.1 %]" alt="[% hw.0%]">
+            </a>
+          </div>
+        [% END %]
+      </td>
+      <td class="d-none d-sm-table-cell">[% p.d %]</td>
+    </tr>
+    [% END %]
+  </tbody>
+</table>

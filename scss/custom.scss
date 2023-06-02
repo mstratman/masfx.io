@@ -221,3 +221,15 @@ figure,li {
   padding-right: 0.5rem;
 }
 
+
+.showcase {
+  color: $theme-color-primary;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.docs-article strong.callout-strong, strong.callout-strong, .callout-strong {
+  color: darken($theme-success-color, 15%);
+}

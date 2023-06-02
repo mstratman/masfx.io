@@ -1,6 +1,319 @@
 {
-   "meta_desc" : "Learn how to build the QuickFuzz pedal in this Pedal Building Course for the Beginner Pedal Kit.",
-   "chapters" : [],
    "title" : "Beginner Pedal Kit (QuickFuzz)",
-   "directory" : "quickfuzz"
+   "meta_desc" : "Learn how to build the QuickFuzz pedal with this Pedal Building book and the Beginner Pedal Kit.",
+   "directory" : "quickfuzz",
+   "chapters" : [
+      {
+         "icon" : "fa-book",
+         "title" : "The Ultimate Beginner Pedal Kit (QuickFuzz Edition)",
+         "directory" : "",
+         "pages" : [
+            {
+               "file" : "index",
+               "menu_title" : "Cover Page",
+               "title" : "The Ultimate Beginner Pedal Kit (QuickFuzz Edition)",
+               "video" : "#TODO",
+               "video_after_content" : 1,
+               "subtitle" : "To Build Your Own  DIY Guitar Pedal"
+            },
+            {
+               "file" : "what_makes_it_special",
+               "title" : "What Makes This Kit Special?",
+               "menu_title" : "What Makes This Special?"
+            },
+            {
+               "file" : "how_to_fail",
+               "menu_title" : "How To Fail (and Why You Won't)",
+               "page_title" : "How To Fail (and Why You Won't)",
+               "title" : "How To Fail When Building a DIY Pedal",
+               "subtitle" : "(and Why You Won't)",
+               "meta_desc": "Let's itemize the ways people fail when building DIY guitar pedals, and review why that won't happen when building the MAS Effects Beginner Pedal Kit"
+            },
+            {
+               "file" : "guarantee",
+               "title" : "GUARANTEED Working Pedal",
+               "page_title" : "You are GUARANTEED to build a working DIY pedal"
+            },
+            {
+               "file" : "feedback",
+               "title" : "Give Your Feedback"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-map-signs",
+         "title" : "QuickFuzz: Getting Started",
+         "directory" : "getting_started",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "About the QuickFuzz Circuit"
+            },
+            {
+               "file" : "site_howto",
+               "title" : "How To Use This Site"
+            },
+            {
+               "file" : "prereq",
+               "title" : "PREREQUISITES"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-toolbox",
+         "title" : "Tools and Materials",
+         "directory" : "tools_and_materials",
+         "pages" : [
+            {
+               "file" : "index",
+               "page_title" : "Beginner Pedal Kit Contents (QuickFuzz edition)",
+               "title" : "Kit Contents"
+            },
+            {
+               "file" : "required",
+               "page_title" : "Required Tools for the Beginner Pedal Kit",
+               "title" : "Required Tools"
+            },
+            {
+               "file" : "optional",
+               "page_title" : "Optional Tools for the Beginner Pedal Kit",
+               "title" : "Optional Tools"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-1",
+         "title" : "Prepare to Solder",
+         "directory" : "prepare",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Prepare to Solder"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-2",
+         "title" : "Build the Main PCB",
+         "directory" : "main_pcb",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Diode (D1)"
+            },
+            {
+               "file" : "resistors",
+               "title" : "Resistors"
+            },
+            {
+               "file" : "transistor",
+               "title" : "Transistor"
+            },
+            {
+               "file" : "capacitors",
+               "title" : "Capacitors"
+            },
+            {
+               "file" : "ribbon",
+               "title" : "Ribbon Cable"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-3",
+         "title" : "Start the Foot Switch PCB",
+         "directory" : "ftsw_pcb",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Foot Switch PCB"
+            },
+            {
+               "file": "clr",
+               "menu_title" : "Current Limiting Resistor",
+               "title" : "Current Limiting Resistor (CLR) for LED"
+            },
+            {
+               "file" : "connect",
+               "menu_title" : "Connect to Main PCB",
+               "title" : "Connect Foot Switch PCB to Main PCB"
+            },
+            {
+               "file" : "capacitors",
+               "title" : "Capacitors"
+            },
+            {
+               "file" : "ribbon",
+               "title" : "Ribbon Cable"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-4",
+         "title" : "Build the Jack PCB",
+         "directory" : "jack_pcb",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Jack PCB"
+            },
+            {
+               "file": "diode",
+               "title" : "Diode (D2)"
+            },
+            {
+               "file": "phone_jacks",
+               "title" : "Input and Output Jacks"
+            },
+            {
+               "file": "dc_jack",
+               "title" : "DC Power Jack"
+            },
+            {
+               "file": "battery",
+               "title" : "Battery (not included)"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-5",
+         "title" : "Put It All Together",
+         "directory" : "assemble",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Prepare Potentiometers"
+            },
+            {
+               "file" : "install_pots",
+               "title" : "Install Potentiometers in Enclosure",
+               "menu_title" : "Install Potentiometers"
+            },
+            {
+               "file" : "clean_flux",
+               "title" : "Clean Flux From Solder Joints",
+               "menu_title" : "Clean Flux"
+            },
+            {
+               "file" : "install_main",
+               "title" : "Install Main PCB"
+            },
+            {
+               "file" : "install_main",
+               "title" : "Install Main PCB"
+            },
+            {
+               "file" : "install_jacks",
+               "title" : "Install Jack PCB"
+            },
+            {
+               "file" : "install_ftsw",
+               "title" : "Install Foot Switch PCB"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-6",
+         "title" : "Decorate (Optional)",
+         "directory" : "decorate",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Decorate (Optional)"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-7",
+         "title" : "Finishing Touches",
+         "directory" : "finish",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Knobs"
+            },
+            {
+               "file" : "back_plate",
+               "title" : "Back Plate"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-8",
+         "title" : "Test and Celebrate",
+         "directory" : "test",
+         "pages" : [
+            {
+               "file" : "index",
+               "title" : "Test"
+            },
+            {
+               "file" : "celebrate",
+               "title" : "Celebrate!"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-triangle-exclamation",
+         "title" : "When Things Go Wrong",
+         "directory" : "troubleshooting",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "title" : "Seeking Help"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "no_distortion",
+               "title" : "Problem: Bypass is fine, but no sound when engaged (if LED works)",
+               "menu_title" : "Problem: No Distortion"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "bad_solder_joint",
+               "title" : "Problem: Bad Solder Joint"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "misplaced_component",
+               "title" : "Problem: Misplaced Component"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "anything_else",
+               "title" : "Problem: Anything Else!"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-arrow-right",
+         "title" : "What's Next?",
+         "directory" : "next",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "title" : "Your Next Pedal"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-gears",
+         "title" : "How Does It Work?",
+         "directory" : "how_does_it_work",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "page_title" : "Prerequisites to Understand the QuickFuzz Circuit",
+               "menu_title" : "Prerequisites",
+               "title" : "Prerequisites for Learning How This Pedal Works"
+            }
+         ]
+      }
+   ]
 }

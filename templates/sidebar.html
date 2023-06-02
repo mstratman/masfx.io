@@ -30,7 +30,7 @@
           [% FOREACH p IN c.pages %]
             <li class="nav-item [% IF p.is_current %]active[% END %]  [% IF p.quick %]cq[% ELSIF p.comprehensive %]cc[% END %]">
               <a class="nav-link nav-page [% IF p.is_current %]active[% END %]" href="[% p.href %]">
-                [% p.title %]
+                [% IF p.menu_title %][% p.menu_title %][% ELSE %][% p.title %][% END %]
                 [% IF p.id %]<span class="page_done d-none ms-2" id="[% p.id %]" title="DONE"><i class="fas fa-check"></i></span>[% END %]
               </a>
             </li>

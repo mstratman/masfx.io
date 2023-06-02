@@ -11112,6 +11112,7 @@ a.text-link:hover {
 }
 .docs-logo-wrapper .site-logo {
   display: inline-block;
+  padding-left: 4rem;
 }
 
 .docs-top-utilities {
@@ -11670,6 +11671,17 @@ figure, li {
 
 .solder-joint-table tbody > tr > :nth-child(2) {
   padding-right: 0.5rem;
+}
+
+.showcase {
+  color: #28b76b;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+.docs-article strong.callout-strong, strong.callout-strong, .callout-strong {
+  color: #3e8554;
 }
 
 /*# sourceMappingURL=theme.css.map */
