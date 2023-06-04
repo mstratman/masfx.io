@@ -37,11 +37,8 @@ $site->{chapters} = [ map {
         my $p = $_;
         my $md_path = $page_dir . '/' . $site->{directory} . '/' . $cdir . $p->{file} . '.md';
         my $html_path = $page_dir . '/' . $site->{directory} . '/' . $cdir . $p->{file} . '.html';
-        if (-e $md_path) {
-            $p->{md_path} = $md_path;
-        } else {
-            $p->{html_path} = $html_path;
-        }
+        $p->{md_path} = $md_path;
+        $p->{html_path} = $html_path;
 
         $p->{href} = $c->{href} . $p->{file} . '.html';
         $p->{dist_path} = 'dist/' . $site->{directory} . '/' . $cdir . $p->{file} . '.html';
@@ -122,7 +119,7 @@ sub generate_sidebar {
 sub get_article {
     my $page = shift;
     my @lines;
-    if ($page->{md_path}) {
+    if (-e $page->{md_path}) {
         return read_file($page->{md_path});
     } else {
         return read_file($page->{html_path});
@@ -213,7 +210,7 @@ sub build_all {
 
             $i++;
 
-            my $fn = $page->{md_path} ? $page->{md_path} : $page->{html_path};
+            my $fn = -e $page->{md_path} ? $page->{md_path} : $page->{html_path};
             die "$fn" unless -e $fn;
             my %vars = (
                 %$page,
@@ -229,7 +226,7 @@ sub build_all {
 
             my $article = get_article($page);
             my $contents = '';
-            if ($page->{md_path}) {
+            if (-e $page->{md_path}) {
                 my $md = Text::MultiMarkdown->new();
                 $contents = $md->markdown($article);
             } else {
