@@ -1,4 +1,23 @@
-html { font-size: 14px; }
+html {
+  font-size: 14px;
+  scroll-padding-top: 70px;
+}
+/* default is bolder=700 */
+strong { font-weight: 600; }
+.stronger { font-weight: 700; }
+
+.localhref {
+}
+
+ul.tighter, ol.tighter {
+  margin-left: 1rem;
+  list-style-position: inside;
+  li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
 
 a.plain {
   text-decoration: none;
@@ -10,7 +29,7 @@ a.plain {
   padding-left: 0px;
 }
 
-.todo, .TODO { font-weight: bold; color: red; }
+.todo, .TODO, .bold-red { font-weight: bold; color: red; }
 .todo-subdued { color: red; font-size: small;}
 
 h2.docs-subheading {
@@ -23,6 +42,7 @@ h2, .docs-article h2 {
     font-size: 1rem;
     line-height: 100%;
   }
+  &.danger { color: $theme-danger-color;}
 }
 h3, .docs-article h3 {
   margin-top: 1rem;
@@ -33,6 +53,7 @@ h3, .docs-article h3 {
     font-size: 1rem;
     line-height: 100%;
   }
+  &.danger { color: $theme-danger-color;}
 }
 
 .docs-article ul.tight li {
@@ -232,4 +253,24 @@ figure,li {
 
 .docs-article strong.callout-strong, strong.callout-strong, .callout-strong {
   color: darken($theme-success-color, 15%);
+}
+
+.fancybox__backdrop {
+  background-color: #fff !important;
+}
+.fancybox__caption {
+  color: $theme-text-color-light;
+}
+
+.flowchart {
+  text-align: center;
+  .probable_cause, .docs-article .probable_cause {
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  .question {
+  }
+  .flow {
+    font-size: 18pt;
+  }
 }

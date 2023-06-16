@@ -1,0 +1,214 @@
+
+<p>Don't fret. You WILL fix it. We will help.</p>
+
+<h2 id="fixingcommonproblems">Fixing Common Mistakes</h2>
+
+<ul>
+  <li><a href="/quickfuzz/troubleshooting/bad_solder_joint.html">Bad solder joint</a></li>
+  <li><a href="/quickfuzz/troubleshooting/misplaced_component.html">Misplaced component</a></li>
+</ul>
+
+<h2 id="unsureoftheproblem">Unsure of the Problem?</h2>
+<p>Let's look at the clues to figure out what's going on with your pedal. Before we continue, though, <strong>if your LED won't light then UNPLUG</strong> your pedal for now. If you have a power issue it's better to limit the time the circuit is exposed to the wrong power supply.</p>
+<p><strong>Follow this flowchart</strong> to find the most likely cause of common problems. Or <strong>skip past it to <a href="#getpersonalhelp">learn about our support forum</a></strong>.</p>
+
+[% BLOCK visit_forum %]
+<p><small>If that doesn't help, <a href="https://www.reddit.com/r/maseffects/" target="_blank">visit our forum</a> and provide some pictures and details and we'll help you figure out what's going on.</small></p>
+[% END %]
+<div class="flowchart">
+  <h3>Step 1</h3>
+  <div class="row">
+    <div class="col-12 question">
+      <div class="alert alert-info" role="alert">
+        Is the problem <strong>sporadic</strong> / occassional?
+      </div>
+    </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6">
+      <span class="btn btn-sm btn-secondary">Yes</span>
+    </div>
+    <div class="col-6">
+      <span class="btn btn-sm btn-secondary">No</span>
+    </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6">
+      <div class="alert alert-primary" role="alert">
+        <h6 class="probable_cause">Probable cause:</h6>
+        <div class="text-start">
+          <p>You probably have one or more <a href="/quickfuzz/troubleshooting/bad_solder_joint.html">bad solder joints</a>.</p>
+        </div>
+        <p><a class="btn btn-primary" href="/quickfuzz/troubleshooting/bad_solder_joint.html">FIX IT</a></p>
+        <div class="text-start">
+          [% INCLUDE visit_forum %]
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="alert alert-info" role="alert">
+        <p>The problem is constant</p>
+        <p><strong>Continue to step 2</strong></p>
+      </div>
+      <div class="flow"> <i class="fas fa-down-long"></i> </div>
+    </div>
+  </div>
+
+  <h3>Step 2</h3>
+
+  <div class="row">
+    <div class="col-12 question">
+      <div class="alert alert-info" role="alert">
+        Pushing the foot switch toggles between engaged and bypassed.
+        Are you getting a <strong>clean bypassed sound</strong> in one of the positions?
+      </div>
+    </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6">
+      <span class="btn btn-sm btn-secondary">Yes</span>
+    </div>
+    <div class="col-6">
+      <span class="btn btn-sm btn-secondary">No</span>
+    </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6">
+      <div class="alert alert-info" role="alert">
+        <p>A clean bypassed signal can be heard</p>
+        <p><strong>Continue to step 3</strong></p>
+      </div>
+      <div class="flow"> <i class="fas fa-down-long"></i> </div>
+    </div>
+    <div class="col-6 answer">
+
+      <div class="alert alert-primary" role="alert">
+        <h6 class="probable_cause">Probable cause:</h6>
+        <div class="text-start">
+          <p>If you can never hear sound pass through your pedal, it's likely one or more <a href="/quickfuzz/troubleshooting/bad_solder_joint.html">bad solder joints</a> on the <a href="/quickfuzz/assemble/install_ftsw.html">foot switch</a> or the <a href="/quickfuzz/assemble/install_jacks.html">phone jacks</a>.</p>
+        </div>
+        <p><a class="btn btn-primary" href="/quickfuzz/troubleshooting/bad_solder_joint.html">FIX IT</a></p>
+        <div class="text-start">
+          <p>If you overheated your foot switch, it may also be damaged. If your joints look good, <a href="https://www.reddit.com/r/maseffects/" target="_blank">visit our support forum</a> for tips on diagnosing the foot switch.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Step 3</h3>
+
+  <div class="row">
+    <div class="col-12 question">
+      <div class="alert alert-info" role="alert">
+        When the pedal is <strong>engaged</strong>, what do you hear?
+      </div>
+    </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6">
+      <span class="btn btn-sm btn-secondary">Something, but it's not right</span>
+    </div>
+    <div class="col-6">
+      <span class="btn btn-sm btn-secondary">Silence</span>
+    </div>
+    <div class="col-6 flow"><i class="fas fa-down-long"></i></div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6">
+      <div class="alert alert-primary" role="alert">
+        <h6 class="probable_cause">Probable cause:</h6>
+        <div class="text-start">
+          <p><small>If you get sound from your pedal, but find the volume is too quiet, not distorted enough, or too filtered...</small></p>
+          <p>
+            The problem is likely
+            a <strong><a href="/quickfuzz/troubleshooting/misplaced_component.html">misplaced component</a></strong>.
+          </p>
+        </div>
+          <p><a class="btn btn-primary" href="/quickfuzz/troubleshooting/misplaced_component.html">FIX IT</a></p>
+        <div class="text-start">
+          <p>It could possibly be a <a href="/quickfuzz/troubleshooting/bad_solder_joint.html">bad solder joint</a> as well.</p>
+          [% INCLUDE visit_forum %]
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="alert alert-info" role="alert">
+        <p>The pedal has a clean signal when bypassed, but no output when engaged.</p>
+        <p><strong>Continue to step 4</strong></p>
+      </div>
+      <div class="flow"> <i class="fas fa-down-long"></i> </div>
+    </div>
+  </div>
+
+  <h3>Step 4</h3>
+
+  <div class="row">
+    <div class="col-12 question">
+      <div class="alert alert-info" role="alert">
+        Does the <strong>LED light up</strong> when engaged?
+      </div>
+    </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6">
+      <span class="btn btn-sm btn-secondary">Yes</span>
+    </div>
+    <div class="col-6">
+      <span class="btn btn-sm btn-secondary">No</span>
+    </div>
+    <div class="col-6 flow"><i class="fas fa-down-long"></i></div>
+    <div class="col-6 flow"> <i class="fas fa-down-long"></i> </div>
+    <div class="col-6">
+      <div class="alert alert-primary" role="alert">
+        <h6 class="probable_cause">Probable cause:</h6>
+        <div class="text-start">
+          <p>
+          Your cables may be reversed.
+          </p>
+        </div>
+        <p><a class="btn btn-primary" href="/quickfuzz/troubleshooting/no_distortion.html">FIX IT</a></p>
+        <div class="text-start">
+          [% INCLUDE visit_forum %]
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="alert alert-primary" role="alert">
+        <h6 class="probable_cause">Probable cause:</h6>
+        <div class="text-start">
+          <p>
+          You probably have some sort of a power-related problem.
+          </p>
+        </div>
+        <p><a class="btn btn-primary" href="/quickfuzz/troubleshooting/power.html">FIX IT</a></p>
+        <div class="text-start">
+          [% INCLUDE visit_forum %]
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<h2 id="getpersonalhelp">Get Personal Help</h2>
+
+<p>
+If you have any questions or problems and those links above don't help, <strong>head over to <a href="https://www.reddit.com/r/maseffects" target="_blank">reddit.com/r/maseffects</a></strong> and create a new post.
+  Usually you'll want to include pictures of your build in addition to a brief description of the trouble you're having. This is the preferred and quickest way to get your problem resolved.
+</p>
+
+<p class="text-center"><a class="btn btn-primary" target="_blank" href="https://www.reddit.com/r/maseffects/">Get Help Now</a></p>
+
+<p><strong>It's not just for help</strong>, though. Feel free to also post in-progress reports, show off your new pedal when it's completed, or start a discussion on anything you think other pedal builders would enjoy.</p>
+
+<p>Other DIY pedal communities such as
+  <a target="_blank" href="https://www.reddit.com/r/diypedals">r/diypedals</a>,
+  <a target="_blank" href="https://www.diystompboxes.com/smfforum">diystompboxes.com</a>,
+  or <a target="_blank" href="https://www.freestompboxes.org">freestompboxes.org</a>
+  are great too, but you'll need to provide them with additional context like a schematic and links to the build docs.
+  It'll be quicker to use our forum, but bookmark these others since they're great communities.
+</p>
+
+<p>Finally, if none of that works for you, <a target="_blank" href="https://mas-effects.com/contact">send an email</a>.</p>
+
+[% INCLUDE "forum.html" %]

@@ -67,7 +67,8 @@
             {
                "file" : "index",
                "page_title" : "Beginner Pedal Kit Contents (QuickFuzz edition)",
-               "title" : "Kit Contents"
+               "title" : "Kit Contents",
+               "subtitle" : "AKA Bill of Materials (BOM)"
             },
             {
                "file" : "required",
@@ -125,11 +126,7 @@
          "directory" : "ftsw_pcb",
          "pages" : [
             {
-               "file" : "index",
-               "title" : "Foot Switch PCB"
-            },
-            {
-               "file": "clr",
+               "file": "index",
                "menu_title" : "Current Limiting Resistor",
                "title" : "Current Limiting Resistor (CLR) for LED"
             },
@@ -137,14 +134,6 @@
                "file" : "connect",
                "menu_title" : "Connect to Main PCB",
                "title" : "Connect Foot Switch PCB to Main PCB"
-            },
-            {
-               "file" : "capacitors",
-               "title" : "Capacitors"
-            },
-            {
-               "file" : "ribbon",
-               "title" : "Ribbon Cable"
             }
          ]
       },
@@ -154,11 +143,7 @@
          "directory" : "jack_pcb",
          "pages" : [
             {
-               "file" : "index",
-               "title" : "Jack PCB"
-            },
-            {
-               "file": "diode",
+               "file": "index",
                "title" : "Diode (D2)"
             },
             {
@@ -168,10 +153,6 @@
             {
                "file": "dc_jack",
                "title" : "DC Power Jack"
-            },
-            {
-               "file": "battery",
-               "title" : "Battery (not included)"
             }
          ]
       },
@@ -193,10 +174,6 @@
                "file" : "clean_flux",
                "title" : "Clean Flux From Solder Joints",
                "menu_title" : "Clean Flux"
-            },
-            {
-               "file" : "install_main",
-               "title" : "Install Main PCB"
             },
             {
                "file" : "install_main",
@@ -266,9 +243,15 @@
             },
             {
                "comprehensive" : 1,
+               "file" : "power",
+               "title" : "Problem: No Power",
+               "page_title" : "Power Problem: Pedal LED Does Not Light, No Distortion"
+            },
+            {
+               "comprehensive" : 1,
                "file" : "no_distortion",
-               "title" : "Problem: Bypass is fine, but no sound when engaged (if LED works)",
-               "menu_title" : "Problem: No Distortion"
+               "page_title" : "Problem: Bypass is fine, but no sound when engaged (if LED works)",
+               "title" : "Problem: No Distortion"
             },
             {
                "comprehensive" : 1,
@@ -279,11 +262,6 @@
                "comprehensive" : 1,
                "file" : "misplaced_component",
                "title" : "Problem: Misplaced Component"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "anything_else",
-               "title" : "Problem: Anything Else!"
             }
          ]
       },
@@ -312,6 +290,12 @@
                "page_title" : "Prerequisites to Understand the QuickFuzz Circuit",
                "menu_title" : "Prerequisites",
                "title" : "Prerequisites for Learning How This Pedal Works"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "schematic",
+               "page_title" : "Schematic for the QuickFuzz Beginner Pedal Kit",
+               "title" : "Schematic",
             }
          ]
       }

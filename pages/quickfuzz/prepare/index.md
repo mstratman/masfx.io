@@ -17,11 +17,9 @@ Revisit the [How To Solder book](/how_to_solder/) if needed, or try [more practi
 ## Separate PCBs
 
 <div class="float-md  ms-3 mb-3" style="max-width:350px">
-  [% WRAPPER "callout.html" type="danger" heading="REMINDER / WARNING" %]
-  <p><em>WEAR SAFETY GLASSES</em></p>
-
-  <p>I once cut a perforated PCB apart with flush cutters and its blade snapped. A sharp, metal, triangle projectile hit my face within an inch of my eye and could have blinded me if not for glasses and luck.</p>
-  [% END %]
+  <a data-fancybox href="/img/quickfuzz/pcb-top.png">
+    <img class="img img-fluid" src="/img/quickfuzz/pcb-top-thumb.png" alt="QuickFuzz PCB from the beginner pedal kit">
+  </a>
 </div>
 
 Your pedal will use three (3) Printed Circuit Boards <em>(PCBs)</em>. They are manufactured as one unit so the first thing you need to do is **snap it apart**.
@@ -32,4 +30,10 @@ The two little tabs will probably still be attached. You do not need to remove t
 Breaking is easier and safer than trying to cut the PCB.
 
 **Snap, don't cut**.
+
+[% WRAPPER "callout.html" type="danger" heading="Anecdotal Warning" %]
+  <p><em>WEAR SAFETY GLASSES</em></p>
+
+  <p>I once cut a perforated PCB apart with flush cutters and its blade snapped. A sharp, metal, triangle projectile hit my face within an inch of my eye and could have blinded me if not for glasses and luck.</p>
+[% END %]
 

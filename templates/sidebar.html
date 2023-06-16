@@ -36,7 +36,7 @@
             </li>
             [% FOREACH section IN p.sections %]
               <li class="nav-item ps-4 [% IF p.quick %]cq[% ELSIF p.comprehensive %]cc[% END %]">
-                <a class="nav-link nav-section scrollto" href="[% section.href %]">[% section.title %]</a>
+                <a class="nav-link nav-section scrollto localhref" href="[% section.href %]">[% section.title %]</a>
               </li>
             [% END %]
           [% END %]

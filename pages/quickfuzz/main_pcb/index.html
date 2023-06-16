@@ -1,0 +1,39 @@
+<div class="float-md  ms-3 mb-3" style="max-width:350px">
+  <a data-fancybox href="/img/quickfuzz/quickfuzz-assembly01.png">
+    <img class="img img-fluid" src="/img/quickfuzz/thumb-quickfuzz-assembly01.png" alt="D1 on QuickFuzz main PCB">
+  </a>
+</div>
+
+<p>Diodes allow current to flow one way in a circuit. They are polarized, meaning their orientation matters.</p>
+
+<p>Ensure the side of the diode with the <strong>stripe is over the stripe drawn on the PCB</strong>.</p>
+
+<p>
+<strong>Bend its leads</strong> just
+<a href="/how_to_solder/soldering/quick_overview.html">like you did for the resistors in the practice kit</a> , insert it into the PCB, then solder.
+</p>
+
+<p>
+<strong>Clip the leads</strong> SAFELY, holding them as you snip. Wear safety glasses!
+</p>
+
+<div class="row">
+  <div class="col-12 col-md-6">
+    [% WRAPPER "callout.html" type="warning" heading="Component Placement" %]
+    <p>
+    As a general rule, you will <strong>always place a component on the side of the PCB with the silk screen label</strong> <small>(i.e. the writing printed on it)</small> for that component.
+    </p>
+    <p>
+    The designator <small>(e.g. "D1")</small> will usually be printed, as well as an outline or other drawing to provide a visual reference. Place the component on top of this drawing.
+    </p>
+    [% END %]
+  </div>
+  <div class="col-12 col-md-6">
+
+    [% WRAPPER "callout.html" type="note" heading="WHAT DOES IT DO?" %]
+    <p>
+      <strong>D1:</strong> as the signal alternates between positive and negative, this diode changes the way the transistor responds, resulting in asymmetric distortion
+    </p>
+    [% END %]
+  </div>
+</div>

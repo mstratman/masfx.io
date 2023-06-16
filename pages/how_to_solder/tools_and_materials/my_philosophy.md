@@ -35,3 +35,4 @@ You could alternatively buy the iron for about $8 and piece together the other s
 
 If you're happy with a kit, skip to [PREPARING TO SOLDER](/how_to_solder/preparing_to_solder/) section. If you'd rather gear up piece by piece, [read on...](/how_to_solder/tools_and_materials/soldering_irons.html)
 
+

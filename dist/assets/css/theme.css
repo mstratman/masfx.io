@@ -11441,6 +11441,25 @@ a.text-link:hover {
 }
 html {
   font-size: 14px;
+  scroll-padding-top: 70px;
+}
+
+/* default is bolder=700 */
+strong {
+  font-weight: 600;
+}
+
+.stronger {
+  font-weight: 700;
+}
+
+ul.tighter, ol.tighter {
+  margin-left: 1rem;
+  list-style-position: inside;
+}
+ul.tighter li, ol.tighter li {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 a.plain {
@@ -11453,7 +11472,7 @@ a.plain {
   padding-left: 0px;
 }
 
-.todo, .TODO {
+.todo, .TODO, .bold-red {
   font-weight: bold;
   color: red;
 }
@@ -11475,6 +11494,9 @@ h2 span, .h2 span, .docs-article h2 span {
   font-size: 1rem;
   line-height: 100%;
 }
+h2.danger, .danger.h2, .docs-article h2.danger {
+  color: #d26d69;
+}
 
 h3, .h3, .docs-article h3 {
   margin-top: 1rem;
@@ -11485,6 +11507,9 @@ h3 span, .h3 span, .docs-article h3 span {
   display: inline-block;
   font-size: 1rem;
   line-height: 100%;
+}
+h3.danger, .danger.h3, .docs-article h3.danger {
+  color: #d26d69;
 }
 
 .docs-article ul.tight li {
@@ -11682,6 +11707,25 @@ figure, li {
 
 .docs-article strong.callout-strong, strong.callout-strong, .callout-strong {
   color: #3e8554;
+}
+
+.fancybox__backdrop {
+  background-color: #fff !important;
+}
+
+.fancybox__caption {
+  color: #828d9f;
+}
+
+.flowchart {
+  text-align: center;
+}
+.flowchart .probable_cause, .flowchart .docs-article .probable_cause {
+  text-transform: uppercase;
+  font-style: italic;
+}
+.flowchart .flow {
+  font-size: 18pt;
 }
 
 /*# sourceMappingURL=theme.css.map */

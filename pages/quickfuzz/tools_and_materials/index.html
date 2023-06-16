@@ -115,26 +115,112 @@
   </tbody>
 </table>
 
-<h2 id="everythingelse">Everything Else</h2>
 
-<table class="table table-hover table-small-text">
-    [% other_rows = [
+[% BLOCK table2 %]
+  <table class="table table-hover table-small-text">
+    <thead>
+      <tr>
+        <th scope="col">
+          &nbsp;
+        </th>
+        <th scope="col"  class="d-none d-sm-table-cell">
+          &nbsp;
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      [% FOREACH p IN rows %]
+        <tr>
+          <td>
+            <div class="d-block d-sm-none">
+              [% p.d %]
+            </div>
+            <a data-fancybox="BOM-gallery" data-caption="[% p.a %]" href="/img/quickfuzz/tools_and_materials/[% p.u %]">
+              <img class="img img-fluid py-2 bom-table-image" src="/img/quickfuzz/tools_and_materials/thumb-[% p.u %]" alt="[% p.a %]">
+            </a>
+            [% IF p.hw && p.hw.size > 0 %]
+              <br>
+            [% END %]
+            [% FOREACH hw IN p.hw %]
+              <div class="d-inline-block text-center">
+                [% hw.0 %]
+                <br>
+                <a data-fancybox data-caption="[% hw.0 %]" href="/img/quickfuzz/tools_and_materials/[% hw.1 %]">
+                  <img class="img img-fluid py-2 bom-table-image" src="/img/quickfuzz/tools_and_materials/thumb-[% hw.1 %]" alt="[% hw.0%]">
+                </a>
+              </div>
+            [% END %]
+          </td>
+          <td class="d-none d-sm-table-cell">[% p.d %]</td>
+        </tr>
+      [% END %]
+    </tbody>
+  </table>
+[% END %]
+
+<h2 id="potentiometers">Potentiometers</h2>
+[% pot_rows = [
+      {
+        u   = 'pot-a100k.png'
+        d   = 'potentiometer, 100kΩ <br><small><em>(volume)</em></small>'
+        a   = 'Potentiometer, A100K'
+        hw  = [['nut', 'pot-nut.png'], ['washer','pot-washer.png']]
+      },
+      {
+        u   = 'pot-b10k.png'
+        d   = 'potentiometer, 10kΩ <br><small><em>(gain)</em></small>'
+        a   = 'Potentiometer, B10K'
+        hw  = [['nut', 'pot-nut.png'], ['washer','pot-washer.png']]
+      },
+      {
+        u   = 'dust-cover.png'
+        d   = '(2) potentiometer dust covers <br><small><em>(may be pre-installed)</em></small>'
+        a   = 'Potentiometer dust cover'
+        hw  = []
+      }
+] %]
+[% INCLUDE table2 rows=pot_rows %]
+
+
+<h2 id="enclosureparts">Color Coordinated Parts</h2>
+<p>These will vary depending which enclosure you chose for your pedal.</p>
+[% enc_rows = [
+      {
+        u   = ''
+        d   = 'Enclosure <br><small><em>(You choose. Designs vary.)</em></small>'
+        a   = ''
+        hw  = []
+      },
+      {
+        u   = ''
+        d   = 'Face plate <em>if you chose plain aluminum</em>'
+        a   = ''
+        hw  = []
+      },
       {
         u   = 'led.png'
-        d   = 'LED <br><small><em>(Packed with enclosure. Color depends on enclosure design)</em></small>'
+        d   = 'LED <br><small><em>(Color depends on enclosure design)</em></small>'
         a   = 'LED'
         hw  = []
       },
       {
+        u   = 'knob.png'
+        d   = '(2) knobs, T18 push on, 6mm shaft <br><small><em>(Color depends on enclosure design)</em></small>'
+        a   = 'Knob'
+        hw  = []
+      },
+] %]
+[% INCLUDE table2 rows=enc_rows %]
+
+<h2 id="everythingelse">Common Parts</h2>
+<p>These are the parts you'll get with any of our full pedal kits, regardless of which circuit or enclosure you choose.</p>
+
+<table class="table table-hover table-small-text">
+    [% other_rows = [
+      {
         u   = 'led-spacer.png'
         d   = 'LED spacer'
         a   = 'LED spacer'
-        hw  = []
-      },
-      {
-        u   = 'knob.png'
-        d   = '(2) knobs, T18 push on, 6mm shaft <br><small><em>(Packed with enclosure. Color depends on enclosure design)</em></small>'
-        a   = 'Knob'
         hw  = []
       },
       {
@@ -145,27 +231,9 @@
       },
       {
         u   = '3pdt.png'
-        d   = '3PDT latching foot switch <br><small<em>(color varies)</em></small>'
+        d   = '3PDT latching foot switch <br><small><em>(color varies)</em></small>'
         a   = '3PDT foot switch'
         hw  = [['(2) nuts', '3pdt-nut.png'], ['washer','3pdt-washer.png'],['lock washer', '3pdt-lock-washer.png']]
-      },
-      {
-        u   = 'pot-a100k.png'
-        d   = 'potentiometer, 100kΩ <br><small<em>(volume)</em></small>'
-        a   = 'Potentiometer, A100K'
-        hw  = [['nut', 'pot-nut.png'], ['washer','pot-washer.png']]
-      },
-      {
-        u   = 'pot-b10k.png'
-        d   = 'potentiometer, 10kΩ <br><small<em>(gain)</em></small>'
-        a   = 'Potentiometer, B10K'
-        hw  = [['nut', 'pot-nut.png'], ['washer','pot-washer.png']]
-      },
-      {
-        u   = 'dust-cover.png'
-        d   = '(2) potentiometer dust covers <br><small<em>(may be pre-installed)</em></small>'
-        a   = 'Potentiometer dust cover'
-        hw  = []
       },
       {
         u   = 'ribbon6.png'
@@ -203,9 +271,11 @@
         <div class="d-block d-sm-none">
           [% p.d %]
         </div>
-        <a data-fancybox="BOM-gallery" data-caption="[% p.a %]" href="/img/quickfuzz/tools_and_materials/[% p.u %]">
-          <img class="img img-fluid py-2 bom-table-image" src="/img/quickfuzz/tools_and_materials/thumb-[% p.u %]" alt="[% p.a %]">
-        </a>
+        [% IF p.a %]
+          <a data-fancybox="BOM-gallery" data-caption="[% p.a %]" href="/img/quickfuzz/tools_and_materials/[% p.u %]">
+            <img class="img img-fluid py-2 bom-table-image" src="/img/quickfuzz/tools_and_materials/thumb-[% p.u %]" alt="[% p.a %]">
+          </a>
+        [% END %]
         [% IF p.hw && p.hw.size > 0 %]
           <br>
         [% END %]

@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="col-12 col-md-6 col-xl-4">
+    <a data-fancybox href="/img/quickfuzz/quickfuzz-assembly04.png">
+      <img class="img img-fluid mb-3" src="/img/quickfuzz/thumb-quickfuzz-assembly04.png" alt="C1 and C2 on QuickFuzz main PCB">
+    </a>
+  </div>
+
+  <div class="col-12 col-md-6 col-xl-8">
+    <p>
+      Capacitors store electrical charge and as a result of their operation, they block DC signals and limit the frequencies of AC signals.
+    </p>
+    <p>
+      C1 and C2 are not polarized and can be <strong>inserted in either direction</strong> <small>(i.e. you can safely rotate 180°)</small>.
+    </p>
+    <p>
+      <strong>Install and solder them, then clip their leads</strong>.
+    </p>
+  </div>
+
+  <div class="col-12 col-xl-8 offset-xl-2">
+    [% WRAPPER "callout.html" type="note" heading="WHAT DOES IT DO?" %]
+    <p>
+      <strong>C1:</strong>
+      blocks DC voltage on the input
+    </p>
+    <p>
+      <strong>C2:</strong>
+      does the same on the output
+    </p>
+    [% END %]
+  </div>
+</div>
+
+<div class="row">
+  <div class="mt-3 col-12 col-xl-8 offset-xl-2">
+
+    [% WRAPPER "callout.html" type="tip" heading="For Future Reference" icon_override="note-sticky" %]
+    <p>
+    Some capacitors, most commonly electrolytic types, ARE polarized and must be inserted with the correct orientation. This isn't because polarization is desirable or called for by the circuit design, but rather simply as a consequence of the way they are constructed. AC Circuits like pedals need to carefully account for the orientation of polarized capacitors to avoid damaging or destroying them.
+    </p>
+    <p>You can always substitute a non-polarized (e.g. film type, or ceramic) for a polarized capacitor (e.g. electrolytic), but not the inverse. You should NOT use a polarized capacitor unless the schematic specifically calls for one.</p>
+    [% END %]
+  </div>
+</div>
+
