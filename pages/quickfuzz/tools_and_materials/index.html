@@ -54,7 +54,7 @@
         a = '1M Resistor'
         d = 'R2'
         v = '1 MΩ'
-        m = 'brown, black, yellow, brown'
+        m = 'brown, black, black, yellow, brown'
       },
       {
         u = 'resistor-4.7k.png'
@@ -212,85 +212,52 @@
 ] %]
 [% INCLUDE table2 rows=enc_rows %]
 
-<h2 id="everythingelse">Common Parts</h2>
+<h2 id="commonparts">Common Parts</h2>
 <p>These are the parts you'll get with any of our full pedal kits, regardless of which circuit or enclosure you choose.</p>
+[% other_rows = [
+  {
+    u   = 'led-spacer.png'
+    d   = 'LED spacer'
+    a   = 'LED spacer'
+    hw  = []
+  },
+  {
+    u   = 'dc-jack.png'
+    d   = '2.1mm DC power jack'
+    a   = 'DC Jack'
+    hw  = []
+  },
+  {
+    u   = '3pdt.png'
+    d   = '3PDT latching foot switch <br><small><em>(color varies)</em></small>'
+    a   = '3PDT foot switch'
+    hw  = [['(2) nuts', '3pdt-nut.png'], ['washer','3pdt-washer.png'],['lock washer', '3pdt-lock-washer.png']]
+  },
+  {
+    u   = 'ribbon6.png'
+    d   = 'ribbon cable, 2 inches, 6 conductors'
+    a   = 'Ribbon cable, 6 conductors'
+    hw  = []
+  },
+  {
+    u   = 'ribbon4.png'
+    d   = 'ribbon cable, 1 inch, 4 conductors'
+    a   = 'Ribbon cable, 4 conductors'
+    hw  = []
+  },
+  {
+    u   = 'phone.png'
+    d   = '(2) phone jacks, 1/4"'
+    a   = 'Phone jack'
+    hw  = [['nut', 'phone-nut.png'], ['washer','phone-washer.png']]
+  },
+] %]
+[% INCLUDE table2 rows=other_rows %]
 
-<table class="table table-hover table-small-text">
-    [% other_rows = [
-      {
-        u   = 'led-spacer.png'
-        d   = 'LED spacer'
-        a   = 'LED spacer'
-        hw  = []
-      },
-      {
-        u   = 'dc-jack.png'
-        d   = '2.1mm DC power jack'
-        a   = 'DC Jack'
-        hw  = []
-      },
-      {
-        u   = '3pdt.png'
-        d   = '3PDT latching foot switch <br><small><em>(color varies)</em></small>'
-        a   = '3PDT foot switch'
-        hw  = [['(2) nuts', '3pdt-nut.png'], ['washer','3pdt-washer.png'],['lock washer', '3pdt-lock-washer.png']]
-      },
-      {
-        u   = 'ribbon6.png'
-        d   = 'ribbon cable, 2 inches, 6 conductors'
-        a   = 'Ribbon cable, 6 conductors'
-        hw  = []
-      },
-      {
-        u   = 'ribbon4.png'
-        d   = 'ribbon cable, 1 inch, 4 conductors'
-        a   = 'Ribbon cable, 4 conductors'
-        hw  = []
-      },
-      {
-        u   = 'phone.png'
-        d   = '(2) phone jacks, 1/4"'
-        a   = 'Phone jack'
-        hw  = [['nut', 'phone-nut.png'], ['washer','phone-washer.png']]
-      },
-    ] %]
-  <thead>
-    <tr>
-      <th scope="col">
-        &nbsp;
-      </th>
-      <th scope="col"  class="d-none d-sm-table-cell">
-        &nbsp;
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    [% FOREACH p IN other_rows %]
-    <tr>
-      <td>
-        <div class="d-block d-sm-none">
-          [% p.d %]
-        </div>
-        [% IF p.a %]
-          <a data-fancybox="BOM-gallery" data-caption="[% p.a %]" href="/img/quickfuzz/tools_and_materials/[% p.u %]">
-            <img class="img img-fluid py-2 bom-table-image" src="/img/quickfuzz/tools_and_materials/thumb-[% p.u %]" alt="[% p.a %]">
-          </a>
-        [% END %]
-        [% IF p.hw && p.hw.size > 0 %]
-          <br>
-        [% END %]
-        [% FOREACH hw IN p.hw %]
-          <div class="d-inline-block text-center">
-            [% hw.0 %]
-            <br>
-            <a data-fancybox data-caption="[% hw.0 %]" href="/img/quickfuzz/tools_and_materials/[% hw.1 %]">
-              <img class="img img-fluid py-2 bom-table-image" src="/img/quickfuzz/tools_and_materials/thumb-[% hw.1 %]" alt="[% hw.0%]">
-            </a>
-          </div>
-        [% END %]
-      </td>
-      <td class="d-none d-sm-table-cell">[% p.d %]</td>
-    </tr>
-    [% END %]
-  </tbody>
-</table>
+<h2 id="pcbprintedcircuitboard">PCB (Printed Circuit Board)</h2>
+<div style="max-width:350px">
+  <a data-fancybox href="/img/quickfuzz/pcb-top.png">
+    <img class="img img-fluid" src="/img/quickfuzz/pcb-top-thumb.png" alt="QuickFuzz PCB from the beginner pedal kit">
+  </a>
+</div>
+

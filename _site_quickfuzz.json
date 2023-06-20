@@ -266,19 +266,6 @@
          ]
       },
       {
-         "icon" : "fa-arrow-right",
-         "title" : "What's Next?",
-         "directory" : "next",
-         "comprehensive" : 1,
-         "pages" : [
-            {
-               "comprehensive" : 1,
-               "file" : "index",
-               "title" : "Your Next Pedal"
-            }
-         ]
-      },
-      {
          "icon" : "fa-gears",
          "title" : "How Does It Work?",
          "directory" : "how_does_it_work",
@@ -295,7 +282,7 @@
                "comprehensive" : 1,
                "file" : "schematic",
                "page_title" : "Schematic for the QuickFuzz Beginner Pedal Kit",
-               "title" : "Schematic",
+               "title" : "Schematic"
             }
          ]
       }
