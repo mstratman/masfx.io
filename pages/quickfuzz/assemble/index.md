@@ -28,7 +28,7 @@ A dust cover is a plastic cap that can be pushed onto the back of potentiometer 
 
 To install it, line up the notched area to accommodate the legs of the potentiometer, and firmly **press it into place**.
 
-<small>FYI: One or both of your potentiometers may already have a dust cover installed.</small>
+<small>Note: One or both of your potentiometers may already have a dust cover installed.</small>
 
 ## Straighten Legs
 

@@ -1,6 +1,6 @@
 ## Reference Designators
 
-Reference designators, which you may have noticed in the [Kit Contents section](/quickfuzz/tools_and_materials/) <small>(also frequently called a <em>Bill of Materials</em> (BOM))</small>, are a combination of letters and numbers that uniquely identify a component in the circuit. e.g. **R1** is *resistor 1*, **C32** is *capacitor 32*, and **D3** is *diode 3*. They consist of a **letter prefix** indicating the component type, and a **number** uniquely identifying a particular part in the circuit.
+Reference designators, which you may have noticed in the [Kit Contents section](/quickfuzz/tools_and_materials/) <small>(also frequently called a <em>Bill of Materials</em> (BOM))</small>, are a combination of letters and numbers that uniquely identify a component in the circuit. e.g. **R1** is *resistor 1*, **C32** is *capacitor 32*, and **D3** is *diode 3*. They consist of an **alphabetic prefix** indicating the component type, and a **number** uniquely identifying a particular part in the circuit.
 
 They are written on [the schematic](/quickfuzz/how_does_it_work/schematic.html), the [bill of materials](/quickfuzz/tools_and_materials/), printed on the PCB, and since we pre-sort this kit <small>(though most kits won't do this)</small> it's also written next to the actual physical part.
 

@@ -1,4 +1,4 @@
-If you have the *plain aluminum enclosure* <small>(rather than a powder coated one with a design printed on it)</small>, this would be a good time to decorate it.  **The guts of the pedal are designed to be easily removable**. Just remove all the nuts and washers and pull everything out.
+If you have the *plain aluminum enclosure* with no design, rather than a powder coated and UV printed one, this would be a good time to decorate it. **The guts of the pedal are designed for easy removal**. Remove all the nuts and washers and pull everything out.
 
 There are countless options to consider. Get creative:
 

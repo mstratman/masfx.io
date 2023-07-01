@@ -4,7 +4,7 @@
   </a>
 </div>
 
-You just earned your DIY Pedals MERIT BADGE! (it's attached to the poster sheet that came with your kit). **Wear or display it proudly!** <small>(hint: double sided tape is great)</small>
+You just earned your DIY Pedals MERIT BADGE! **Wear or display it proudly!** <small>(Tip: double sided tape is great if you don't want to sew it)</small>
 
 ## Show Off Your New Pedal
  
