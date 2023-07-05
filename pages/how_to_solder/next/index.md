@@ -6,7 +6,7 @@ No problem, we got you covered. Still want more practice? [Order another practic
 
 Also stop by the [support forum](https://www.reddit.com/r/maseffects) and leave a post with any thoughts, troubles, concerns, and ideally some pics of your soldering so we can help you get ready as quickly as possible.
 
-## I feel HIGHLY PROFICIENT with a soldering iron
+## I feel COMFORTABLE and PROFICIENT with a soldering iron
 
 Great! Now go and build something!
 

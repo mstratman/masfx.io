@@ -100,7 +100,8 @@
             },
             {
                "file" : "temperature",
-               "title" : "Soldering Temperature: 350°C"
+               "title" : "Soldering Temperature: 315-350°C",
+               "menu_title": "Soldering Temperature"
             },
             {
                "file" : "tinning",
@@ -153,6 +154,46 @@
                "file" : "finish",
                "video": "#TODO",
                "title" : "Finishing Up"
+            }
+         ]
+      },
+      {
+         "icon" : "fa-triangle-exclamation",
+         "title" : "When Things Go Wrong",
+         "directory" : "troubleshooting",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "title" : "Seeking Help"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "bad_solder_joints",
+               "title" : "Problem: Bad Solder Joints"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "burnt_pad",
+               "title" : "Problem: Burnt or Lifted Pad"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "component_wrong_spot",
+               "video": "#TODO",
+               "title" : "Problem: Component Placed in the Wrong Spot"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "tip_wont_tin",
+               "video": "#TODO",
+               "title" : "Problem: Tip Won't Tin"
+            },
+            {
+               "comprehensive" : 1,
+               "file" : "anything_else",
+               "title" : "Problem: Anything Else!"
             }
          ]
       },
@@ -230,46 +271,6 @@
                "comprehensive" : 1,
                "file" : "learning_more",
                "title" : "Learning More"
-            }
-         ]
-      },
-      {
-         "icon" : "fa-triangle-exclamation",
-         "title" : "When Things Go Wrong",
-         "directory" : "troubleshooting",
-         "comprehensive" : 1,
-         "pages" : [
-            {
-               "comprehensive" : 1,
-               "file" : "index",
-               "title" : "Seeking Help"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "bad_solder_joints",
-               "title" : "Problem: Bad Solder Joints"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "burnt_pad",
-               "title" : "Problem: Burnt or Lifted Pad"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "component_wrong_spot",
-               "video": "#TODO",
-               "title" : "Problem: Component Placed in the Wrong Spot"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "tip_wont_tin",
-               "video": "#TODO",
-               "title" : "Problem: Tip Won't Tin"
-            },
-            {
-               "comprehensive" : 1,
-               "file" : "anything_else",
-               "title" : "Problem: Anything Else!"
             }
          ]
       },

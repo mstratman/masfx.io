@@ -4,7 +4,7 @@
   </a>
 </div>
 
-You just earned your DIY Pedals MERIT BADGE! **Wear or display it proudly!** <small>(Tip: double sided tape is great if you don't want to sew it)</small>
+You just earned your DIY Pedals MERIT BADGE! **Wear or display it proudly!** <small>(Tip: double-sided tape is great if you don't want to sew it)</small>
 
 ## Show Off Your New Pedal
  

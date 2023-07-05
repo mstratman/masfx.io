@@ -10,13 +10,13 @@ You'll also hear the old adage to "*buy the best tool you can afford*." This mak
 
 **Instead, I say this**:
 
-* Get ***just* enough tooling** to get the job done. Avoid "nice to have" tools, or those for occasional use (e.g. desoldering).
+* Get ***just* enough tooling** to get the job done. Avoid "nice to have" tools, or those for occasional use (e.g., desoldering).
 * Purchase the **cheapest tools** you can find. If you don't already have them and need them for other projects, don't invest yet! Cheap ones will easily last 10+ pedal builds, which is more than enough time to assess your interest.
 * If you keep going in the DIY pedal building hobby, you'll **slowly upgrade** and add to your tool collection as you go. You'll also only end up with things *you* care about, not what somebody else told you *they* needed.
 
 ## Quick Recommendation
 
-Go on your favorite marketplace site (e.g. Amazon, Ebay, Ali, etc) and **search for "SOLDERING IRON KIT."**
+Go on your favorite marketplace site (e.g., Amazon, Ebay, Ali, etc) and **search for "SOLDERING IRON KIT."**
 
 <a data-fancybox href="/img/practice/tools_and_materials/tool-soldering-kit.png">
 <img class="img-fluid float-md-img" src="/img/practice/tools_and_materials/tool-soldering-kit.png" />

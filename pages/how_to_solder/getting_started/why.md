@@ -1,5 +1,5 @@
-I know you're eager to start building guitar pedals, but too many people ruin their first DIY projects with bad soldering. It's a heartbreaking and expensive lesson.
+Learning to solder is a critical first step in DIY electronics. I know you’re eager to start building guitar pedals or other fun projects, but too many people ruin their first projects with bad soldering.
 
-Learn to solder and get some practice on this inexpensive soldering kit before tackling a pedal!
+It’s a heartbreaking and expensive lesson.
 
-This kit is included alongside every [beginner pedal kit](https://mas-effects.com/beginner-pedal-kit) to help ensure you end up with a working pedal.
+Learn to solder and get some practice on this inexpensive soldering kit before tackling a pedal or other electronics project.

@@ -22,9 +22,9 @@ Revisit the [How To Solder book](/how_to_solder/) if needed, or try [more practi
   </a>
 </div>
 
-Your pedal will use three (3) Printed Circuit Boards <em>(PCBs)</em>. They are manufactured as one unit so the first thing you need to do is **snap them apart**.
+Your pedal will use three (3) printed circuit boards <em>(PCBs)</em>. They are manufactured as one unit, so the first thing you need to do is **snap them apart**.
 
-You can use your hands to break it at the perforations.
+You can use your hands to break them apart at the perforations.
 The two little tabs will probably still be attached. You do not need to remove them, but it will look nicer if you do. Line up your flush cutters with the perforations, apply firm pressure by squeezing the handles, and turn sideways to snap the tab off.
 
 Breaking is easier and safer than trying to cut the PCB.

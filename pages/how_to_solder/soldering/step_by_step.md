@@ -38,7 +38,7 @@ At this point **no more than 1-2 seconds** should have passed with heat applied.
 
 <div class="columns" markdown="1">
 
-**Start adding solder** from the other side.
+**Start adding solder** from the other side. The component's lead should be melting the solder, NOT your iron's tip.
 
 <a data-fancybox href="/img/practice/soldering3.png">
   <img src="/img/practice/soldering3.png" class="img-fluid" style="max-height: 110px;" alt="Soldering: push solder into the joint" />

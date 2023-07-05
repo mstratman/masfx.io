@@ -11728,4 +11728,18 @@ figure, li {
   font-size: 18pt;
 }
 
+.btn-outline-info {
+  border: 1px solid #cfdcf9;
+}
+.btn-outline-info:hover {
+  color: white;
+}
+
+.btn-outline-primary {
+  border: 1px solid #bee9d2;
+}
+.btn-outline-primary:hover {
+  color: white;
+}
+
 /*# sourceMappingURL=theme.css.map */

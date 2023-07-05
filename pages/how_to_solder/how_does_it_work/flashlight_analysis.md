@@ -1,4 +1,4 @@
-Since the buttons are "normally open," i.e. not connecting one side to the other, there's no path for the charge on one side of the battery to return to the other. Current does not flow through the circuit.
+Since the buttons are "normally open," i.e., not connecting one side to the other, there's no path for the charge on one side of the battery to return to the other. Current does not flow through the circuit.
 
 <a data-fancybox href="/img/practice/schematic-practice.png">
   <img class="float-md-img" style="max-width:300px;" src="/img/practice/schematic-practice.png" alt="Practice soldering kit flashlight schematic" />

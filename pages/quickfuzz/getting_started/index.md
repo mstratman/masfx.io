@@ -2,7 +2,7 @@
 
 The circuit is a variation of one called the "Bazz Fuss" and is a popular DIY project for its low part count and *dark*, *brutal* sound.  Its *asymmetric clipping* <small>(different levels of distortion on the positive and negative sides of the signal)</small> creates a richer sound than a simpler symmetric clipping arrangement.
 
-Like some classic vintage fuzz pedals, it has a low input impedance that *loads* the guitar pickups, and so it sounds best with your guitar plugged directly into it, at the beginning of the pedal chain.
+Like some classic vintage fuzz pedals, it has a low input impedance that *loads* the guitar pickups, so it sounds best with your guitar plugged directly into it, at the beginning of the pedal chain.
 
 ## Schematic
 

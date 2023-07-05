@@ -1,0 +1,20 @@
+{
+   "title" : "How Pedals Work: Conceptual Basics for the Absolute Beginner",
+   "meta_desc" : "Learn how guitar and bass pedals work at a conceptual level and identify all the common building blocks found in most guitar pedals.",
+   "directory" : "how_pedals_work",
+   "chapters" : [
+      {
+         "icon" : "fa-book",
+         "title" : "How Pedals Work",
+         "directory" : "",
+         "pages" : [
+            {
+               "file" : "index",
+               "menu_title" : "Cover Page",
+               "title" : "How Pedals Work",
+               "subtitle" : "Conceptual Basics for the Absolute Beginner"
+            }
+         ]
+      }
+   ]
+}

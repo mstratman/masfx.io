@@ -53,9 +53,9 @@ Flux is critical for soldering because it removes layers of oxidation on your co
 
 <dl>
   <dt>Rosin core:</dt>
-  <dd> An aggressive flux that will work well for most situations, including older, moderately corroded parts. However it leaves a thick, sticky residue that must be cleaned with isopropyl alcohol (rubbing alcohol). Stronger mixes, e.g. 91%, make the job easier</dd>
+  <dd> An aggressive flux that will work well for most situations, including older, moderately corroded parts. However it leaves a thick, sticky residue that must be cleaned with isopropyl alcohol (rubbing alcohol). Stronger mixes, e.g., 91%, make the job easier</dd>
   <dt>No clean:</dt>
   <dd>This is the least aggressive, and leaves less residue on the circuit board so it's often not cleaned off. This is my preferred type. If you'd like to clean it, use isopropyl alcohol just like with rosin core</dd>
   <dt>Water soluble [not recommended]</dt>
-  <dd>As the name implies it is cleaned with water, so care must be taken when using water-sensitive components. This is also a very aggressive flux. Because of various problems water causes (e.g. from minerals and oxide), I don't recommend using this flux.</dd>
+  <dd>As the name implies it is cleaned with water, so care must be taken when using water-sensitive components. This is also a very aggressive flux. Because of various problems water causes (e.g., from minerals and oxide), I don't recommend using this flux.</dd>
 </dl>

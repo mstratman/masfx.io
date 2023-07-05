@@ -8,7 +8,7 @@
 
 Most potentiometers have an anti-rotation tab on them. That tab can sit in an additional hole in the enclosure and it will prevent the potentiometer from turning. In practice, though, it's unsightly and not usually necessary since a relatively snug nut on the outside of the potentiometer will keep it in place.
 
-Instead the most common way to deal with these tabs is to simply **snap them off**. Grip it with your side cutters or pliers, and gently bend it to the side. It should break with very little force.
+Instead, the most common way to deal with these tabs is to simply **snap them off**. Grip it with your side cutters or pliers, and gently bend it to the side. It should break with very little force.
 
 ## Install Dust Covers
 

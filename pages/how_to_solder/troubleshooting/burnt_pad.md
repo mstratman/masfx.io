@@ -1,6 +1,6 @@
 <div class="columns" markdown="1">
 
-The copper pad may lift off the PCB if you apply heat for too long <small>(e.g. more than 4 seconds)</small>, or don't let the PCB cool down long enough before reheating a joint. This causes a disconnect between the component and the rest of the circuit.
+The copper pad may lift off the PCB if you apply heat for too long <small>(e.g., more than 4 seconds)</small>, or don't let the PCB cool down long enough before reheating a joint. This causes a disconnect between the component and the rest of the circuit.
 
 **This is one of the trickier problems to solve so take great care not to overheat your joints!**
 
