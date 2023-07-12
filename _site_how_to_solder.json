@@ -45,8 +45,7 @@
          "pages" : [
             {
                "file" : "index",
-               "page_title" : "Soldering Practice Kit Contents",
-               "title" : "Kit Contents"
+               "title" : "Soldering Practice Kit"
             },
             {
                "file" : "required",
