@@ -26,10 +26,6 @@
          "pages" : [
             {
                "file" : "index",
-               "title" : "Soldering Practice Kit"
-            },
-            {
-               "file" : "site_howto",
                "title" : "How To Use This Site"
             },
             {
