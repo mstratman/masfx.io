@@ -13,9 +13,7 @@
                  "file" : "index",
                  "title" : "Learn How to Solder",
                  "page_title": "How to Solder DIY Pedals and Hobby Electronics",
-                 "subtitle" : "for DIY guitar pedals, synth, and other hobby electronics",
-                 "video" : "#TODO",
-                 "video_after_content" : 1
+                 "subtitle" : "for DIY guitar pedals, synth, and other hobby electronics"
              }
          ]
       },
@@ -26,10 +24,6 @@
          "pages" : [
             {
                "file" : "index",
-               "title" : "Soldering Practice Kit"
-            },
-            {
-               "file" : "site_howto",
                "title" : "How To Use This Site"
             },
             {
@@ -51,8 +45,7 @@
          "pages" : [
             {
                "file" : "index",
-               "page_title" : "Soldering Practice Kit Contents",
-               "title" : "Kit Contents"
+               "title" : "Soldering Practice Kit"
             },
             {
                "file" : "required",
