@@ -17,7 +17,7 @@ Leaded solder is MUCH easier to work with than lead-free. An entire article coul
 
 I strongly recommend using leaded solder until you have learned the fundamentals and feel confident in your soldering ability. Your chances of success with lead-free solder, as a beginner, are greatly diminished. Even after you’re highly proficient at soldering you should probably continue using leaded solder. The failure rate of lead-free solder joints over time is much higher, and it is simply less reliable.
 
-Lead-free solder is widely use for commercial products due to environmental concerns. Countless tons of consumer electronics eventually pollute the Earth, so lead-free solder can help reduce contamination.  Switch to lead-free solder when your projects are being manufactured and assembled by professional PCB fabricators.
+Lead-free solder is widely used for commercial products due to environmental concerns. Countless tons of consumer electronics eventually pollute the Earth, so lead-free solder can help reduce contamination.  Switch to lead-free solder when your projects are being manufactured and assembled by professional PCB fabricators.
 
 
 ## Leaded Solder Safety: 
