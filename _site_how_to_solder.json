@@ -14,6 +14,10 @@
                  "title" : "Learn How to Solder",
                  "page_title": "How to Solder DIY Pedals and Hobby Electronics",
                  "subtitle" : "for DIY guitar pedals, synth, and other hobby electronics"
+             },
+             {
+                 "file" : "what_is_soldering",
+                 "title" : "What is Soldering?"
              }
          ]
       },

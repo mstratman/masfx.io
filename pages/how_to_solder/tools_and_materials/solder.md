@@ -35,6 +35,8 @@ If you are soldering on a sensitive surface like a kitchen table, lay down newsp
 
 ## Tin/Lead Ratio:
 
+Leaded solder is made from a mixture of tin and lead, and is available in a variety of ratios.
+
 **60/40 or 63/37** are the most popular for DIY electronics, and the difference between them is negligible. Choose whichever is cheaper or more readily available.
 
 ## Width of Solder Wire
