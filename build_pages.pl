@@ -69,8 +69,12 @@ my $mon = File::ChangeNotify->instantiate_watcher(
 while ( my @events = $mon->wait_for_events ) {
     use Data::Dumper;
     say Dumper(\@events);
+    my $e = shift @events;
+    if ($e->type ne 'modify') {
+        next;
+    }
     print "BUILDING....";
-    build_all();
+    build_all($e->path);
     print "DONE\n";
 }
 
@@ -159,6 +163,7 @@ sub _Header2Label {
 }
 
 sub build_all {
+    my $only_build_this = shift;
 
     # build a list of pages to use for next/prev buttons in the template. Note that 
     # we're not navigating between sites.
@@ -212,6 +217,12 @@ sub build_all {
 
             my $fn = -e $page->{md_path} ? $page->{md_path} : $page->{html_path};
             die "$fn" unless -e $fn;
+
+            if ($only_build_this) {
+                next unless $fn eq $only_build_this;
+            }
+            say "REBUILDING $fn";
+
             my %vars = (
                 %$page,
                 h1_id => _Header2Label($page->{title}),
