@@ -47,19 +47,39 @@ Smaller can be used as well, but you'll have to push far more solder wire into e
 
 I don't recommend using anything larger than 0.032", though, since it will be too easy to add too much solder to joints.
 
-## Flux Core
+## Flux
 
-Solder used for electronics like DIY pedals should always have a flux core. Unless you're shopping for plumbers solder at a hardware store, though, you don't usually have to worry about this. Most solder you'll find is suitable.
+Flux is a chemical substance that prepares the metal surfaces to bond with the solder. It is critical for soldering because it removes and prevents layers of oxidation on your component and PCB pad so the solder can properly bond to the metal.
 
-Flux is critical for soldering because it removes layers of oxidation on your component and PCB pad so the solder can properly bond to the metal.
+Without it you would have unreliable solder joints.
+
+
+## Flux Core Solder (required)
+
+Solder used for electronics like DIY pedals should always have a flux core. Most solder you find for electronics is suitable. Avoid plumbing solder, though.
+
+For the majority of soldering, the flux inside your solder wire will be sufficient.
+
+Understand, though, that once you melt the solder the flux burns off. If you are reworking a joint is often a good idea to add fresh solder in order to get more flux.
+
+## Additional Flux (optional)
+
+In some circumstances it helps to have additional flux you can apply to the parts you are working on. For example, if you are working on surface mount devices (SMD), which are typically very small, it is often useful to apply solder directly from the tip of the iron. When the solder melts and adheres to the tip, though, the flux is burned off. Because of this you will need to first add additional flux to the work pieces.
+
+Additional flux can come in a variety of formats: 
+
+- Gel in a syringe: my favorite. It’s easy to apply, sticks to the intended surface, and is tacky and can hold surface mount parts in place
+- Liquid in a pen or bottle
+- Paste
+
 
 ## Flux Types
 
 <dl>
-  <dt>Rosin core:</dt>
+  <dt>Rosin:</dt>
   <dd> An aggressive flux that will work well for most situations, including older, moderately corroded parts. However it leaves a thick, sticky residue that must be cleaned with isopropyl alcohol (rubbing alcohol). Stronger mixes, e.g., 91%, make the job easier</dd>
   <dt>No clean:</dt>
-  <dd>This is the least aggressive, and leaves less residue on the circuit board so it's often not cleaned off. This is my preferred type. If you'd like to clean it, use isopropyl alcohol just like with rosin core</dd>
+  <dd>This is the least aggressive, and leaves less residue on the circuit board so it's often not cleaned off. This is my preferred type. If you'd like to clean it, use isopropyl alcohol just like with rosin</dd>
   <dt>Water soluble [not recommended]</dt>
   <dd>As the name implies it is cleaned with water, so care must be taken when using water-sensitive components. This is also a very aggressive flux. Because of various problems water causes (e.g., from minerals and oxide), I don't recommend using this flux.</dd>
 </dl>
