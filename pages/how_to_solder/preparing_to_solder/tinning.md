@@ -4,7 +4,7 @@
   <img class="img-fluid float-start" style="max-width: 100px" src="/img/practice/soldering-tin.png" alt="Tinning the tip of a soldering iron" />
 </a>
 
-You need to **keep a thin layer of solder on your tip** at all times. Without it you won't be able to transfer heat to your solder joint.
+You need to **keep a thin layer of solder on your tip** at all times. This is called *tinning*. Without it you won't be able to transfer heat to your solder joint.
 
 As soon as your soldering iron heats up, the tip is going to tend to oxidize. When this happens it won't accept solder. To clean it off, **wipe it against your damp sponge. Now immediately apply solder** to the tip.
 
