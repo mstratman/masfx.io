@@ -77,7 +77,7 @@ Additional flux can come in a variety of formats:
 
 <dl>
   <dt>Rosin:</dt>
-  <dd> An aggressive flux that will work well for most situations, including older, moderately corroded parts. However it leaves a thick, sticky residue that must be cleaned with isopropyl alcohol (rubbing alcohol). Stronger mixes, e.g., 91%, make the job easier</dd>
+  <dd> An aggressive flux that will work well for most situations, including older, moderately oxidized or corroded parts. However it leaves a thick, dark residue that must be cleaned with isopropyl alcohol (rubbing alcohol). Stronger mixes, e.g., 91%, make the job easier</dd>
   <dt>No clean:</dt>
   <dd>This is the least aggressive, and leaves less residue on the circuit board so it's often not cleaned off. This is my preferred type. If you'd like to clean it, use isopropyl alcohol just like with rosin</dd>
   <dt>Water soluble [not recommended]</dt>

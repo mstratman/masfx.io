@@ -97,7 +97,7 @@
             },
             {
                "file" : "temperature",
-               "title" : "Soldering Temperature: 315-350°C",
+               "title" : "Soldering Temperature: 315-375°C",
                "menu_title": "Soldering Temperature"
             },
             {
