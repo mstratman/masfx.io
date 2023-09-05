@@ -12,7 +12,7 @@
 
 5) And finally **hold the leads** and use your cutters to **snip the excess free**. Cut the lead, not the solder.  If you don't hold them while cutting they will fly and create a dangerous safety hazard, particularly for your eyes.
 
-Keep these clippings for additional solder practice!
+Keep these clippings for additional soldering practice!
 
 <a data-fancybox href="/img/practice/soldering-steps-overview.png">
   <img class="img-fluid" src="/img/practice/soldering-steps-overview.png" />

@@ -10,6 +10,17 @@ As soon as your soldering iron heats up, the tip is going to tend to oxidize. Wh
 
 Once your tip has a nice layer of solder flowed across it, it is tinned! This is one of the most important things to ensure success. You want to keep your tip tinned at all times. This will help dramatically increase its useful lifetime, too.
 
+[% WRAPPER "callout.html" type="info" heading="Summary" %]
+<h4>Tinning Steps</h4>
+<ol>
+<li>Wipe both sides of the tip</li>
+<li>Quickly, immediately apply solder</li>
+<li>Repeat until the tip is shiny</li>
+</ol>
+<h4>Re-tin</h4>
+<p>While soldering, clean and tin the tip every few joints</p>
+[% END %]
+
 ## Troubleshooting
 
 <figure class="figure text-center">

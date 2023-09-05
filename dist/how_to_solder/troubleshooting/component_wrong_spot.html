@@ -221,7 +221,7 @@
     <header class="docs-header">
       <div class="d-flex justify-content-between">
         <span class="chapter_name">When Things Go Wrong</span>
-        <span class="last_updated">Last updated: 2023-07-12</span>
+        <span class="last_updated">Last updated: 2023-08-22</span>
       </div>
       <h1 id="problem:componentplacedinthewrongspot" class="docs-heading ">Problem: Component Placed in the Wrong Spot</h1>
       
@@ -249,13 +249,59 @@
 
 <h2 id="removingacomponent">Removing a Component</h2>
 
-<p>Clean and tin your soldering iron tip, then put some extra solder on it. Use the blob of solder to
-  <strong>heat up one or both pads on the misplaced component, while pulling it from the other side</strong>.
-
-  Resistors and diodes can be lifted one lead and one pad at a time.
+<p>
+To remove a component we need to heat up the solder, then pull the lead(s) free. The specific technique will vary depending on the type of component, how many leads it has, and how far apart they are spaced.
+</p>
+<p>
+Start by cleaning and tinning your soldering iron tip, then put some extra solder on it.
+</p>
+<h3>Removing: One lead at a time</h3>
+<p>
+Resistors, diodes, and other axial components (those with 2 leads coming from opposite sides) are easiest to remove one lead at a time.
+</p>
+<p>
+ Use the blob of solder to heat up one of the solder joints while pulling the component from the other side. Be careful not to burn your fingers! Repeat for the other side.
+</p>
+<h3>Removing: Two or more leads at a time</h3>
+<p>
+For radial components with leads on the same size, you may have trouble trying to pull only one lead out. Instead you may need to heat up all the pads simultaneously and pull the entire component out in one action.
+</p>
+<p>
+There are many ways to do this, but here are 3 that should work most of the time:
+</p>
+<ol>
+  <li>
+Use a large blob of solder to heat all the joints of the component. This works well with capacitors, LEDs, and other components with tightly spaced leads.
+  </li>
+  <li>
+Use a hot air gun if you have one. This is especially effective for components with more than 2 or 3 leads, and is very easy to do.
+  </li>
+  <li>
+Use a wire or lead cutoff to create a heat bridge between the leads. Add solder to attach it to each joint, then apply heat for a few seconds to melt all the joints simultaneously.
+  </li>
+</ol>
+<h3>Removing: Hybrid approach</h3>
+<p>
+I like to think of this as the “teeter totter” approach. Heat one side and pull it a bit, leaving the component at an angle. Heat the other side and pull it a bit, straightening it out and lifting it further from the PCB.
+</p>
+<p>
+Repeat this a few times and eventually your component is free, or you have enough of its leads exposed that you can safely clip them while leaving enough to re-solder later.
+</p>
+<p>
+This method works well for potentiometers if you heat two of its leads simultaneously. i.e., left and center, then right and center. Repeat.
+</p>
+<h3>Removing: Clearing all solder</h3>
+<p>
+You can use a solder sucker, a braided solder wick, or a combination of both to remove the solder from the joint.
+</p>
+<p>
+I don’t recommend this method on PCBs with plated through holes (i.e. metal walls on the holes). Even when the majority of the solder is removed, the leads will remain bonded to the holes and cause you more trouble than it’s worth.
+</p>
+<h3>Removing: By first destroying the component</h3>
+<p>
+If you don’t have a hot air gun, and the component has several leads or more, you may find it very difficult to heat enough joints simultaneously to pull the component away from the PCB. In some of these cases you may find it easiest to simply clip the leads off the component, remove its body, then heat and remove the leads one at a time.
 </p>
 
-<p>Capacitors can be easier to remove if you use a large blob of solder to heat both pads simultaneously.</p>
 
 <h2 id="replacingacomponent">Replacing a Component</h2>
 
