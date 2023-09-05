@@ -36,3 +36,10 @@ You could alternatively buy the iron for about $8 and piece together the other s
 If you're happy with a kit, skip to [PREPARING TO SOLDER](/how_to_solder/preparing_to_solder/) section. If you'd rather gear up piece by piece, [read on...](/how_to_solder/tools_and_materials/soldering_irons.html)
 
 
+<div>
+[% WRAPPER "callout.html" type="dark" heading="Alternate Approach" %]
+<p>If budget constraints aren’t a concern for you, or you know you want to use your soldering iron many times, get a reliable one to start with.</p>
+
+<p>There are lots of great options available depending on your budget and preferences, so stop by <a href="https://mas-effects.com/forum" target="_blank">our forum</a> and get some personalized recommendations.</p>
+[% END %]
+</div>
