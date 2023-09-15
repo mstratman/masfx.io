@@ -1,1 +1,3 @@
-<p class="todo">TODO: ... picture of lugs in each position</p>
+### Coming soon...
+
+In the meantime, you can learn about this circuit in an [earlier draft of this QuickFuzz booklet](https://drive.google.com/file/d/1q39JJ0B2PAtpj_RRppMS_D-ORMoJ2Spu/view?usp=sharing).
