@@ -28,7 +28,10 @@ my $json_txt = read_file($file);
 my $site = $json->decode($json_txt);
 die unless $site;
 
-$site->{href} = '/' . $site->{directory} . '/';
+$site->{href} = '/';
+if ($site->{directory}) {
+    $site->{href} .= $site->{directory} . '/';
+}
 $site->{chapters} = [ map {
     my $c = $_;
     my $cdir = $c->{directory} ? $c->{directory} . '/' : $c->{directory};
@@ -92,6 +95,7 @@ sub generate_sidebar {
         my @pages = ();
         for my $pg (@{ $c{pages} }) {
             my %p = %$pg;
+            next if $p{no_toc};
             $p{id} = 'sidebar_pageid_' . $site->{directory} . $c{directory} . '_' . $p{file};
             my $is_current_p = $p{id} eq $cur_id ? 1 : 0;
             my $sections = [];
