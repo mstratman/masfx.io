@@ -173,6 +173,13 @@ window.onload=function()
       document.getElementById('videoplaceholder').style.display = "";
     });
   });
+
+  var hideQuickComprehensive = document.getElementById('hide_quick_comprehensive');
+  if (hideQuickComprehensive != null) {
+    var qc = document.getElementById('quick_comprehensive');
+    qc.style.display = "none";
+  }
+
 };
 
 window.onresize=function() 
