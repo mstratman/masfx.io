@@ -285,6 +285,19 @@
                "title" : "Schematic"
             }
          ]
+      },
+      {
+         "icon" : "fa-circle-plus",
+         "title" : "Pickup Simulator add-on kit",
+         "directory" : "pickup_simulator",
+         "comprehensive" : 1,
+         "pages" : [
+            {
+               "comprehensive" : 1,
+               "file" : "index",
+               "title" : "Pickup Simulator add-on kit"
+            }
+         ]
       }
    ]
 }

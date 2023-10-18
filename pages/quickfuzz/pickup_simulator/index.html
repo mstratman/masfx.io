@@ -1,0 +1,42 @@
+<p>The pickup simulator
+is 
+<a href="https://shop.mas-effects.com/products/ultimate-beginner-pedal-kit" target="_blank">an optional add-on kit for the ultimate Beginner Pedal Kit</a>.
+It provides an additional PCB that sits between your foot switch PCB and the main PCB. It injects a circuit between the input and the fuzz circuit that behaves like a guitar pickup.
+This <strong>allows you to put the pedal anywhere in your signal chain</strong>, rather than requiring you to plug your guitar straight into it.
+</p>
+
+<div class="float-end d-inline-block ms-3 mb-3" style="max-width:350px">
+  <a data-fancybox href="/img/quickfuzz/pickup-simulator-pcbs.png">
+    <img class="img img-fluid" src="/img/quickfuzz/thumb-pickup-simulator-pcbs.png" alt="Pickup simulator PCBs">
+  </a>
+</div>
+
+<h2>About the Pickup Simulator</h2>
+<p>This fuzz circuit, like some vintage fuzzes, sounds best when it comes first in the pedal chain, with the guitar plugged directly into it. This is because it has a low impedance input that loads your guitar’s pickups. This is generally considered a “wrong” approach from a technical perspective, but you can achieve some amazing sounds by doing it.
+</p>
+<p>
+If you put any pedal with a buffer (which is most) in front of it, however, it will unfortunately make the pedal lose its characteristic low growls, and will sound harsh.
+</p>
+<p>
+We can counteract this by using an inductor (coil of wire), resistor, and capacitor to simulate the response of guitar pickups. Technically we’re using a transformer instead of an inductor, but since only one of its windings is used by the circuit, it’s functionally identical. This transformer is chosen because it’s small, inexpensive, and readily available.
+</p>
+<p>
+To add the pickup simulator to our pedal, we’ll insert another PCB between the main PCB and the foot switch. It will inject the simulator circuit before the fuzz circuit.
+</p>
+<h2>Included Parts</h2>
+<div class="text-center">
+  <figure class="figure text-center">
+    <a data-fancybox href="/img/quickfuzz/pickup-simulator-components.png">
+      <img class="img img-fluid" src="/img/quickfuzz/thumb-pickup-simulator-components.png" alt="Components included in the pickup simulator kit">
+    </a>
+    <figcaption class="figure-caption">6-pin header, 10k trimmer, audio transformer (42TL019), 2P3T switch, 1nF capacitor, PCB</figcaption>
+  </figure>
+</div>
+
+<h2>Instructions</h2>
+<p>
+<a href="/pickup-simulator.pdf" class="btn btn-primary">Download instructions</a>
+</p>
+<p>
+These replace page 16 in <a href="/quickfuzz.pdf">the Beginner Pedal Kit booklet</a>.
+</p>
