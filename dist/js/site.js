@@ -165,15 +165,6 @@ window.onload=function()
 
   checkDonePages();
 
-  // TODO: This should change when we add videos
-  var videoBtns = document.querySelectorAll('.video-link');
-  videoBtns.forEach((vb) => {
-	  vb.addEventListener('click', (e) => {
-      e.preventDefault();
-      document.getElementById('videoplaceholder').style.display = "";
-    });
-  });
-
   var hideQuickComprehensive = document.getElementById('hide_quick_comprehensive');
   if (hideQuickComprehensive != null) {
     var qc = document.getElementById('quick_comprehensive');

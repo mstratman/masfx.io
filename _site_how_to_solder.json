@@ -2,6 +2,7 @@
    "title" : "How To Solder: for DIY Guitar Pedals",
    "directory" : "how_to_solder",
    "meta_desc" : "Learn how to solder in order to build your own guitar pedals with this Pedal Building Course for the Soldering Practice Kit.",
+   "link_block" : "linkblock_how_to_solder.html",
    "chapters" : [
       {
          "icon" : "fa-book",
@@ -13,6 +14,7 @@
                  "file" : "index",
                  "title" : "Learn How to Solder",
                  "page_title": "How to Solder DIY Pedals and Hobby Electronics",
+                 "no_link_block" : 1,
                  "subtitle" : "for DIY guitar pedals, synth, and other hobby electronics"
              },
              {
@@ -37,7 +39,6 @@
             {
                "file" : "who",
                "title" : "Who Is This For?",
-               "video" : "#TODO",
                "comprehensive" : 1
             }
          ]
@@ -49,7 +50,8 @@
          "pages" : [
             {
                "file" : "index",
-               "title" : "Soldering Practice Kit"
+               "title" : "Soldering Practice Kit",
+               "video" : "https://youtu.be/Ae-0r53lgzM?t=406"
             },
             {
                "file" : "required",
@@ -102,7 +104,6 @@
             },
             {
                "file" : "tinning",
-               "video": "#TODO",
                "title" : "Tinning: The Key to Easy Soldering"
             }
          ]
@@ -119,11 +120,11 @@
             },
             {
                "file" : "quick_overview",
-               "title" : "Quick Overview: Soldering a Resistor"
+               "title" : "Quick Overview: Soldering a Resistor",
+               "video" : "https://youtu.be/Ae-0r53lgzM?t=15"
             },
             {
                "file" : "step_by_step",
-               "video": "#TODO",
                "title" : "Step by Step: How to Solder"
             },
             {
@@ -138,7 +139,6 @@
             },
             {
                "file" : "clip_leads",
-               "video": "#TODO",
                "page_title" : "Clip the Leads After Soldering",
                "title" : "Clip the Leads"
             },
@@ -149,7 +149,6 @@
             },
             {
                "file" : "finish",
-               "video": "#TODO",
                "title" : "Finishing Up"
             }
          ]
@@ -178,14 +177,14 @@
             {
                "comprehensive" : 1,
                "file" : "component_wrong_spot",
-               "video": "#TODO",
-               "title" : "Problem: Component Placed in the Wrong Spot"
+               "title" : "Problem: Component Placed in the Wrong Spot",
+               "video" : "https://www.youtube.com/watch?v=Ae-0r53lgzM&t=1805s"
             },
             {
                "comprehensive" : 1,
                "file" : "tip_wont_tin",
-               "video": "#TODO",
-               "title" : "Problem: Tip Won't Tin"
+               "title" : "Problem: Tip Won't Tin",
+               "video" : "https://www.youtube.com/watch?v=Ae-0r53lgzM&t=743s"
             },
             {
                "comprehensive" : 1,
@@ -202,31 +201,32 @@
             {
                "file" : "index",
                "page_title" : "Gather Parts: MAS Effects Flashlight Project",
-               "title" : "Gather Parts"
+               "title" : "Gather Parts",
+               "video" : "https://youtu.be/Ae-0r53lgzM?t=938"
             },
             {
                "file" : "buttons",
-               "video": "#TODO",
                "page_title" : "Buttons: MAS Effects Flashlight Project",
-               "title" : "Buttons"
+               "title" : "Buttons",
+               "video" : "https://youtu.be/Ae-0r53lgzM?t=1189"
             },
             {
                "file" : "resistors",
-               "video": "#TODO",
                "page_title" : "Resistors: MAS Effects Flashlight Project",
-               "title" : "Resistors"
+               "title" : "Resistors",
+               "video" : "https://youtu.be/Ae-0r53lgzM?t=965"
             },
             {
                "file" : "leds",
-               "video": "#TODO",
                "page_title" : "LEDs: MAS Effects Flashlight Project",
-               "title" : "Light Emitting Diodes (LEDs)"
+               "title" : "Light Emitting Diodes (LEDs)",
+               "video" : "https://youtu.be/Ae-0r53lgzM?t=1458"
             },
             {
                "file" : "battery_holder",
-               "video": "#TODO",
                "page_title" : "Battery Holder: MAS Effects Flashlight Project",
-               "title" : "Battery Holder"
+               "title" : "Battery Holder",
+               "video" : "https://youtu.be/Ae-0r53lgzM?t=1635"
             },
             {
                "file" : "finish",

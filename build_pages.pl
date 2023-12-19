@@ -237,6 +237,7 @@ sub build_all {
                 meta_description => $page->{meta_desc} || $site->{meta_desc},
                 pages_prev => \@prev,
                 pages_next => \@next,
+                link_block => $site->{link_block},
             );
 
             my $article = get_article($page);

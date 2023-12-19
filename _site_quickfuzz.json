@@ -2,6 +2,7 @@
    "title" : "Beginner Pedal Kit (QuickFuzz)",
    "meta_desc" : "Learn how to build the QuickFuzz pedal with this Pedal Building book and the Beginner Pedal Kit.",
    "directory" : "quickfuzz",
+   "link_block" : "linkblock_quickfuzz.html",
    "chapters" : [
       {
          "icon" : "fa-book",
@@ -12,8 +13,7 @@
                "file" : "index",
                "menu_title" : "Cover Page",
                "title" : "The Ultimate Beginner Pedal Kit (QuickFuzz Edition)",
-               "video" : "#TODO",
-               "video_after_content" : 1,
+               "no_link_block" : 1,
                "subtitle" : "To Build Your Own  DIY Guitar Pedal"
             },
             {
@@ -36,7 +36,8 @@
             },
             {
                "file" : "feedback",
-               "title" : "Give Your Feedback"
+               "title" : "Give Your Feedback",
+               "comprehensive" : 1
             }
          ]
       },
@@ -55,7 +56,8 @@
             },
             {
                "file" : "prereq",
-               "title" : "PREREQUISITES"
+               "title" : "PREREQUISITES",
+               "comprehensive" : 1
             }
          ]
       },
@@ -68,7 +70,8 @@
                "file" : "index",
                "page_title" : "Beginner Pedal Kit Contents (QuickFuzz edition)",
                "title" : "Kit Contents",
-               "subtitle" : "AKA Bill of Materials (BOM)"
+               "subtitle" : "AKA Bill of Materials (BOM)",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=61s"
             },
             {
                "file" : "required",
@@ -89,7 +92,8 @@
          "pages" : [
             {
                "file" : "index",
-               "title" : "Prepare to Solder"
+               "title" : "Prepare to Solder",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=407s"
             }
          ]
       },
@@ -100,23 +104,28 @@
          "pages" : [
             {
                "file" : "index",
-               "title" : "Diode (D1)"
+               "title" : "Diode (D1)",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=477s"
             },
             {
                "file" : "resistors",
-               "title" : "Resistors"
+               "title" : "Resistors",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=637s"
             },
             {
                "file" : "transistor",
-               "title" : "Transistor"
+               "title" : "Transistor",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=873s"
             },
             {
                "file" : "capacitors",
-               "title" : "Capacitors"
+               "title" : "Capacitors",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=1028s"
             },
             {
                "file" : "ribbon",
-               "title" : "Ribbon Cable"
+               "title" : "Ribbon Cable",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=1225s"
             }
          ]
       },
@@ -128,12 +137,14 @@
             {
                "file": "index",
                "menu_title" : "Current Limiting Resistor",
-               "title" : "Current Limiting Resistor (CLR) for LED"
+               "title" : "Current Limiting Resistor (CLR) for LED",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=1533s"
             },
             {
                "file" : "connect",
                "menu_title" : "Connect to Main PCB",
-               "title" : "Connect Foot Switch PCB to Main PCB"
+               "title" : "Connect Foot Switch PCB to Main PCB",
+               "video" : "https://youtu.be/vGG7x3BZhto?t=1653"
             }
          ]
       },
@@ -144,7 +155,8 @@
          "pages" : [
             {
                "file": "index",
-               "title" : "Diode (D2)"
+               "title" : "Diode (D2)",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=1726s"
             },
             {
                "file": "phone_jacks",
@@ -152,7 +164,8 @@
             },
             {
                "file": "dc_jack",
-               "title" : "DC Power Jack"
+               "title" : "DC Power Jack",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=1802s"
             }
          ]
       },
@@ -163,29 +176,36 @@
          "pages" : [
             {
                "file" : "index",
-               "title" : "Prepare Potentiometers"
+               "title" : "Prepare Potentiometers",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=1949s"
             },
             {
                "file" : "install_pots",
                "title" : "Install Potentiometers in Enclosure",
-               "menu_title" : "Install Potentiometers"
+               "menu_title" : "Install Potentiometers",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=2112s"
+
             },
             {
                "file" : "clean_flux",
                "title" : "Clean Flux From Solder Joints",
-               "menu_title" : "Clean Flux"
+               "menu_title" : "Clean Flux",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=2275s"
             },
             {
                "file" : "install_main",
-               "title" : "Install Main PCB"
+               "title" : "Install Main PCB",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=2401s"
             },
             {
                "file" : "install_jacks",
-               "title" : "Install Jack PCB"
+               "title" : "Install Jack PCB",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=2504s"
             },
             {
                "file" : "install_ftsw",
-               "title" : "Install Foot Switch PCB"
+               "title" : "Install Foot Switch PCB",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=2784s"
             }
          ]
       },
@@ -207,7 +227,8 @@
          "pages" : [
             {
                "file" : "index",
-               "title" : "Knobs"
+               "title" : "Knobs",
+               "video" : "https://www.youtube.com/watch?v=vGG7x3BZhto&t=3419s"
             },
             {
                "file" : "back_plate",
@@ -294,6 +315,7 @@
          "pages" : [
             {
                "comprehensive" : 1,
+               "video" : "https://www.youtube.com/watch?v=2Ny21D-NHJs",
                "file" : "index",
                "title" : "Pickup Simulator add-on kit"
             }

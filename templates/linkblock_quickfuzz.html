@@ -1,0 +1,16 @@
+<div class="mb-3 text-center p-2 link-block">
+  <a class="btn btn-outline-primary" target="_blank" href="/quickfuzz.pdf">
+    <i class="fas fa-book"></i>
+    PDF Booklet
+  </a>
+  [% IF video %]
+    <a target="_blank" class="btn btn-info" href="[% video %]">
+      <i class="fas fa-video"></i>
+      Video: Watch This Section
+    </a>
+  [% ELSE %]
+    <a target="_blank" class="" href="https://www.youtube.com/watch?v=vGG7x3BZhto">
+      Video: Build With Me
+    </a>
+  [% END %]
+</div>
